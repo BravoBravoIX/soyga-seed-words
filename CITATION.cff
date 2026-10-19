@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The Book of Soyga: how the 23 Section 28 code words were chosen"
+authors:
+  - family-names: Burford
+    given-names: Brett
+version: "1.0"
+doi: 10.5281/zenodo.23470965
+date-released: 2026-10-19
+repository-code: "https://github.com/BravoBravoIX/soyga-seed-words"
