@@ -18,6 +18,8 @@ toward".
 October 2026. CPU only, Python standard library only; the whole analysis reruns in about a
 minute and a half.
 
+**Archived on Zenodo** with its paper, code, data and results: [doi:10.5281/zenodo.23470965](https://doi.org/10.5281/zenodo.23470965) (this DOI always opens the latest version; see How to cite at the end).
+
 **The paper:** [`paper/soyga-seed-words.pdf`](paper/soyga-seed-words.pdf) (working paper, 5 pages:
 abstract, method, results, discussion and references; built from `paper/soyga-seed-words.typ`
 by `paper/build.sh`). The README below covers the same ground in more detail.
