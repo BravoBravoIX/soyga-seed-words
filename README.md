@@ -11,6 +11,12 @@ This study asks where those 36 code words came from. It reproduces the published
 explains the four code words that were still unexplained, and tests whether any compact rule
 lies behind the numbers the book uses to spell them.
 
+**What is new, in one sentence.** The code words themselves, ISIAPO among them, have been
+known since Reeds (1998); what was open is how four of them are derived from the book's divine
+names. This study shows that ISIAPO comes from the Bodley numbers counted on "Mesias"
+("Messias" with one s), that the two surviving copies of those numbers differ by exactly that
+one-s count, and that the other three follow from one ordinary slip each.
+
 This is a study of how a text was made. It is not a decipherment: the tables were broken by
 Jim Reeds in 1998. Where the evidence is short of proof, this README says "the evidence weighs
 toward".
