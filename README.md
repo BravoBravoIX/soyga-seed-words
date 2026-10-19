@@ -18,6 +18,10 @@ toward".
 October 2026. CPU only, Python standard library only; the whole analysis reruns in about a
 minute and a half.
 
+**The paper:** [`paper/soyga-seed-words.pdf`](paper/soyga-seed-words.pdf) (working paper, 5 pages:
+abstract, method, results, discussion and references; built from `paper/soyga-seed-words.typ`
+by `paper/build.sh`). The README below covers the same ground in more detail.
+
 ## In short
 
 | Question | Answer | How firm |
