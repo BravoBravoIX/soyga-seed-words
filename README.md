@@ -94,6 +94,7 @@ All random processes use the seed 20261019.
 | `code/name_variants.py` | Every spelling of each divine name on the Latin pages of the edition. Declared rule: one inner letter different, occurring at least twice |
 | `code/repair.py` | The slip model; the least number of slips per paragraph; chance for 100,000 random words per paragraph; the other code words as a second control |
 | `code/witness_diffs.py` | The kinds of slip between the printed copies of the numbers, with no code words used, against random lists |
+| `code/cancer_copies.py` | (v1.2) Cancer: the Sloane and Bodley copies of the numbers read letter by letter on "Messias" and "Mesias", with a chance figure |
 | `code/rules.py` | The tests of question 2 |
 
 **The error model**, written into `code/repair.py` before any scoring was run. Each step costs
@@ -160,6 +161,34 @@ long are scored.
   slip at all).
 - **No paragraph gives a wrong code word.** Under the same model, none of the 23 paragraphs
   produces any of the other 22 code words, even with two slips.
+
+### Cancer: the two copies differ by the one-s count (v1.2; `results/cancer_copies.json`)
+
+Added after v1.0, so it is an observation made after the fact, tested here, not a prediction.
+Set side by side, position by position:
+
+| Letter of ISIAPO | I | S | I | A | P | O |
+|---|---|---|---|---|---|---|
+| Bodley numbers (give ISIAPO on "Mesias") | 4 | 15 | 4 | 5 | 7 | 11 |
+| Sloane main text (Teker's reading) | 4 | 16 | 2 | 6 | 8 | 12 |
+| Sloane read on "Messias" (two s) | s | **s** | e | **a** | **p** | **o** |
+
+- The Bodley numbers give all six letters on the one-s spelling.
+- Where the Sloane copy differs (5 places), 4 of its numbers are exactly one higher than
+  Bodley's, and each of those 4 gives the right letter on the two-s spelling "Messias". That
+  is what a recount of those letters on "Messias" would produce. If a copyist had changed the
+  numbers at random, 4 or more of 5 changes would be exactly one higher in about 1 trial in
+  10,000 (0.000094; 1,000,000 trials).
+- Both copies begin with 4 for the first I. Position 4 is I only on the one-s spelling (on
+  "Messias" it is s), so even the Sloane copy keeps a trace of a one-s count.
+- The third number (Sloane 2, Bodley 4) does not fit either spelling; the Sloane line is
+  corrupt there (Kupin marks it uncertain).
+
+So the copies themselves show the Cancer letters being counted on two spellings that differ
+by one s. The evidence weighs toward the Bodley list being the original one-s count, and the
+Sloane numbers a partial recount on "Messias". Teker (2026) reads the Sloane line the same
+way but does not compare it with the Bodley numbers on the two spellings; we found this
+comparison nowhere earlier.
 
 ### The copies of the numbers make the same slips (`results/witness_diffs.json`)
 
@@ -231,7 +260,8 @@ This study stands on the work of others:
 What this study adds, as far as our search found (GitHub, Zenodo and the web, 19 October 2026,
 including the previous 60 days):
 1. **The ISIAPO repair**: the Bodley numbers counted on Messias with one s. We found it
-   nowhere earlier.
+   nowhere earlier. From v1.2: the Sloane copy's numbers differ from Bodley's by exactly the
+   one-s / two-s count at 4 of 5 changed places (chance about 0.0001), which supports it.
 2. **One error model, fixed in advance, that explains all four misses**, with a measured
    chance for each (0.00002 to 0.00044) and no wrong code word produced. The Agatay and
    Grisdecon spellings are Teker's observation and xvi → vi is Louv's; what is new is that one
@@ -248,7 +278,7 @@ including the previous 60 days):
    the four paragraphs in the manuscripts could confirm or overturn the repairs: Messias or
    Mesias at Cancer, xvi or vi at Moon, and the spellings of Agathay and Griisdecon in the
    name lists.
-2. **The Cancer line is uncertain in the edition.** Kupin marks the Latin numbers "[? could be
+2. **The Cancer line is uncertain in the edition** (and the v1.2 comparison uses Teker's reading of the Sloane line). Kupin marks the Latin numbers "[? could be
    xviiii]", and the Latin and the translation disagree. ISIAPO rests on the Bodley numbers
    printed in braces.
 3. **The error model was written after reading the earlier work.** Two of the four repairs

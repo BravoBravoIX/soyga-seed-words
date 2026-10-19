@@ -11,4 +11,5 @@ python3 name_variants.py "$SRC/kupin.txt"
 nice -n 19 python3 sec28.py
 nice -n 19 python3 repair.py
 nice -n 19 python3 witness_diffs.py
+nice -n 19 python3 cancer_copies.py > /dev/null
 nice -n 19 python3 rules.py > ../results/rules_stdout.txt

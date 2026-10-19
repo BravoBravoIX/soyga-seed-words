@@ -17,14 +17,14 @@
   #v(0.2em)
   #text(size: 9pt)[ORCID #link("https://orcid.org/0009-0003-6599-8297")[0009-0003-6599-8297] · Independent researcher, Australia]
   #v(0.2em)
-  #text(size: 9pt)[Working paper, version 1.1, 19 October 2026 · not peer reviewed]
+  #text(size: 9pt)[Working paper, version 1.2, 19 October 2026 · not peer reviewed]
   #v(0.2em)
   #text(size: 9pt)[Code, data and results: #link("https://github.com/BravoBravoIX/soyga-seed-words")[github.com/BravoBravoIX/soyga-seed-words], #link("https://doi.org/10.5281/zenodo.23470965")[doi:10.5281/zenodo.23470965]]
 ]
 
 #v(0.8em)
 #block(inset: (x: 1.2cm))[
-  #text(weight: "bold")[Abstract.] The thirty-six letter tables of the _Book of Soyga_ (_Aldaraia_; British Library, Sloane MS 8; Bodleian Library, MS Bodley 908) were reconstructed by Jim Reeds (1998, 2006). Louv (2026) found Reeds's step function in the book's own Section 18 verse, and Teker (2026) showed that 19 of the 23 code words spelled out in Section 28 follow exactly from position numbers counted in each book's three divine names, leaving four unexplained: ISIAPO, ARICAA, REUELA and UISEUA. This paper reproduces those results from an independent transcription of Kupin's edition and tests one error model, declared before scoring, that allows a single Roman-numeral slip, a spelling the book uses elsewhere, or a slip in counting the letters. Under that model all four open code words are produced with one slip each; the chance that one slip turns the same names into a random six-letter word of the right letters is 0.00044, 0.00005, 0.00002 and 0.00004 respectively, and no paragraph produces any of the other 22 code words even with two slips. The same two kinds of slip are seen, far more often than chance, where the printed copies of the numbers disagree with each other. The ISIAPO repair (the Bodley numbers counted on _Mesias_, "Messias" with one _s_) appears to be new. No compact rule generates the positions; the words are vowel-rich and draw on all three names, and the evidence weighs toward free choice by the author.
+  #text(weight: "bold")[Abstract.] The thirty-six letter tables of the _Book of Soyga_ (_Aldaraia_; British Library, Sloane MS 8; Bodleian Library, MS Bodley 908) were reconstructed by Jim Reeds (1998, 2006). Louv (2026) found Reeds's step function in the book's own Section 18 verse, and Teker (2026) showed that 19 of the 23 code words spelled out in Section 28 follow exactly from position numbers counted in each book's three divine names, leaving four unexplained: ISIAPO, ARICAA, REUELA and UISEUA. This paper reproduces those results from an independent transcription of Kupin's edition and tests one error model, declared before scoring, that allows a single Roman-numeral slip, a spelling the book uses elsewhere, or a slip in counting the letters. Under that model all four open code words are produced with one slip each; the chance that one slip turns the same names into a random six-letter word of the right letters is 0.00044, 0.00005, 0.00002 and 0.00004 respectively, and no paragraph produces any of the other 22 code words even with two slips. The same two kinds of slip are seen, far more often than chance, where the printed copies of the numbers disagree with each other. The ISIAPO repair (the Bodley numbers counted on _Mesias_, "Messias" with one _s_) appears to be new, and the two copies of the Cancer numbers support it: where the Sloane copy differs from the Bodley one, four of five numbers are exactly one higher, as a recount on the two-_s_ spelling would make them (chance about 0.0001). No compact rule generates the positions; the words are vowel-rich and draw on all three names, and the evidence weighs toward free choice by the author.
 ]
 
 = Introduction
@@ -110,6 +110,22 @@ Under the declared model, each of the four open code words is produced exactly b
   caption: [The four repairs (`results/repair.json`). "Chance" is the share of 100,000 random six-letter words, drawn from the same names, that one slip would also produce.],
 )
 
+== Cancer: the two copies differ by the one-s count
+
+This comparison was added after the first version, so it is an observation tested after the fact, not a prediction (`results/cancer_copies.json`). Table 3 sets the Bodley numbers beside the Sloane main text as Teker (2026) reads it. The Bodley numbers give all six letters of ISIAPO on the one-_s_ spelling. Where the Sloane copy differs (five places), four of its numbers are exactly one higher than Bodley's, and each of those gives the right letter on the two-_s_ spelling _Messias_, which is what a recount of those letters on _Messias_ would produce. If a copyist had changed the numbers at random, four or more of five changes would be exactly one higher in 0.000094 of 1,000,000 trials. Both copies begin with 4 for the first I, and position 4 is I only on the one-_s_ spelling, so even the Sloane copy keeps a trace of a one-_s_ count. The third number fits neither spelling; the Sloane line is corrupt there. The evidence weighs toward the Bodley list being the original one-_s_ count and the Sloane numbers a partial recount on _Messias_. Teker reads the Sloane line the same way but does not compare it with the Bodley numbers on the two spellings.
+
+#figure(
+  table(
+    columns: (2.4fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+    align: (left, center, center, center, center, center, center),
+    table.header([*Letter of ISIAPO*], [I], [S], [I], [A], [P], [O]),
+    [Bodley numbers (ISIAPO on _Mesias_)], [4], [15], [4], [5], [7], [11],
+    [Sloane main text (Teker's reading)], [4], [16], [2], [6], [8], [12],
+    [Sloane read on _Messias_], [s], [*s*], [e], [*a*], [*p*], [*o*],
+  ),
+  caption: [The Cancer numbers in the two copies. Bold: Sloane numbers one higher than Bodley's that give the right letter on the two-_s_ spelling.],
+)
+
 == The printed copies make the same slips
 
 This test uses only the printed numbers. Of the 18 pairs of printed copies that disagree, 5 differ by one Roman-numeral slip (28 %, against 8 % for random lists changed at the same rate) and 3 by a counting slip, a block of positions all one higher or lower (17 %, against 0.2 %). For example, Taurus has Bodley 8, 14, 2, 10, 4, 1 against 9, 15, 2, 11, 4, 1, and Jupiter has Bodley 16, 14, 10, 20, 19, 6 against 17, 15, 11, 21, 20, 6 (`results/witness_diffs.json`). The two kinds of slip that the repairs rely on are therefore the kinds the scribes and the composer can be seen making elsewhere in the same section.
@@ -123,14 +139,14 @@ The code words are rich in vowels: 82 of 138 letters, against 61.5 expected from
 *What the evidence weighs toward.* The selection of all 36 code words is accounted for: twelve reverses, MOYSES, and 23 words spelled from the three divine names, 19 exactly as printed and 4 after one ordinary slip each. Each of the four repairs beats chance by three orders of magnitude or more, the model that allows them produces no wrong code word, and the same kinds of slip are seen among the printed copies themselves. No rule that predicts the words from the names was found, here or in Ahmadipour's tests. The evidence weighs toward free choice: the author picked a pronounceable six-letter word from the letters of all three names and wrote down where each letter sits.
 
 *What is new*, as far as a search of GitHub, Zenodo and the web on 19 October 2026 found:
-+ the ISIAPO repair, the Bodley numbers counted on _Mesias_;
++ the ISIAPO repair, the Bodley numbers counted on _Mesias_, and the finding that the Sloane copy's numbers differ from the Bodley ones by exactly that one-_s_ count at four of five changed places;
 + one error model, fixed in advance, that explains all four misses with a measured chance for each and admits no wrong code word (the _Agatay_ and _Grisdecon_ spellings are Teker's observations and _xvi_ → _vi_ is Louv's; what is new is that one declared model admits all four, measures how unlikely each is by luck, and admits nothing else);
 + a test of the error model on the printed copies' own disagreements, with no code words used;
 + the vowel and three-name tests and the failure of five rule families, which together favour free choice over a hidden rule for the positions.
 
 *Limits.*
 + Everything is read from Kupin's edition. A reading of the four paragraphs in the manuscripts could confirm or overturn the repairs: _Messias_ or _Mesias_ at Cancer, _xvi_ or _vi_ at Moon, and the spellings of _Agathay_ and _Griisdecon_ in the name lists.
-+ The Cancer line is uncertain in the edition. Kupin marks the Latin numbers "[? could be xviiii]", and the Latin and the translation disagree; ISIAPO rests on the Bodley numbers printed in braces.
++ The Cancer line is uncertain in the edition. Kupin marks the Latin numbers "[? could be xviiii]", and the Latin and the translation disagree; ISIAPO rests on the Bodley numbers printed in braces, and the comparison of the two copies uses Teker's reading of the Sloane line.
 + The error model was written after reading the earlier work, and three of the four repairs had already been noticed (two by Teker, one by Louv). The model is generic (any numeral, any attested spelling, any one-letter counting slip, in any paragraph), and its chance figures measure how much freedom it has; but it was not blind to those three.
 + "Chosen, not generated" is where the evidence weighs, not a proof. A rule outside the families tested could still exist.
 + Our transcription was typed by hand. Its numbers reproduce Teker's independent scores (19 of 23 words, 131 of 138 letters), which is a check on both.

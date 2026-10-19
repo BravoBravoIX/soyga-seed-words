@@ -1,0 +1,80 @@
+{
+ "seed": 20261019,
+ "trials": 1000000,
+ "sloane_reading": "Teker 2026, Table 6 (main text)",
+ "rows": [
+  {
+   "letter": "i",
+   "bodley": 4,
+   "bodley_on_one_s": "i",
+   "bodley_on_two_s": "s",
+   "sloane": 4,
+   "sloane_on_one_s": "i",
+   "sloane_on_two_s": "s",
+   "sloane_minus_bodley": 0
+  },
+  {
+   "letter": "s",
+   "bodley": 15,
+   "bodley_on_one_s": "s",
+   "bodley_on_two_s": "o",
+   "sloane": 16,
+   "sloane_on_one_s": "?",
+   "sloane_on_two_s": "s",
+   "sloane_minus_bodley": 1
+  },
+  {
+   "letter": "i",
+   "bodley": 4,
+   "bodley_on_one_s": "i",
+   "bodley_on_two_s": "s",
+   "sloane": 2,
+   "sloane_on_one_s": "e",
+   "sloane_on_two_s": "e",
+   "sloane_minus_bodley": -2
+  },
+  {
+   "letter": "a",
+   "bodley": 5,
+   "bodley_on_one_s": "a",
+   "bodley_on_two_s": "i",
+   "sloane": 6,
+   "sloane_on_one_s": "s",
+   "sloane_on_two_s": "a",
+   "sloane_minus_bodley": 1
+  },
+  {
+   "letter": "p",
+   "bodley": 7,
+   "bodley_on_one_s": "p",
+   "bodley_on_two_s": "s",
+   "sloane": 8,
+   "sloane_on_one_s": "a",
+   "sloane_on_two_s": "p",
+   "sloane_minus_bodley": 1
+  },
+  {
+   "letter": "o",
+   "bodley": 11,
+   "bodley_on_one_s": "o",
+   "bodley_on_two_s": "t",
+   "sloane": 12,
+   "sloane_on_one_s": "n",
+   "sloane_on_two_s": "o",
+   "sloane_minus_bodley": 1
+  }
+ ],
+ "bodley_exact_on_one_s": 6,
+ "sloane_exact_on_two_s": 4,
+ "changed_positions": 5,
+ "changed_exactly_plus_one": 4,
+ "chance_at_least_as_many_plus_one": 9.4e-05,
+ "first_number_both_copies": [
+  4,
+  4
+ ],
+ "position_4": {
+  "one_s": "i",
+  "two_s": "s"
+ }
+}
