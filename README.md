@@ -1,5 +1,7 @@
 # The Book of Soyga: how the 36 tables' seed words were chosen
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470965.svg)](https://doi.org/10.5281/zenodo.23470965)
+
 The *Book of Soyga* (*Aldaraia*) is an anonymous sixteenth-century Latin book of magic, known
 from two manuscripts: British Library Sloane MS 8 and Bodleian MS Bodley 908. John Dee owned
 a copy. It ends with 36 tables of 36 × 36 letters. Each table grows from a six-letter "seed",
@@ -312,3 +314,7 @@ ignores, so a rebuild never republishes them by accident.
   10.5281/zenodo.23414455.
 - Ahmadipour, https://github.com/xcodz/decoding-the-book-of-soyga
 - https://github.com/orey/book-of-soyga; https://github.com/haxlerose/soyga-tables
+
+## How to cite
+
+Burford, B. (2026). The Book of Soyga: how the 23 Section 28 code words were chosen. Zenodo. https://doi.org/10.5281/zenodo.23470965 (this DOI always points to the latest version; each release has its own version DOI on Zenodo).
