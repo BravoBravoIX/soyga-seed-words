@@ -1,0 +1,485 @@
+{
+ "seed": 20261019,
+ "data": [
+  {
+   "label": "Aries",
+   "target": "nisram",
+   "pos": [
+    12,
+    7,
+    16,
+    6,
+    1,
+    8
+   ],
+   "src": "aglaprimogenituson",
+   "lens": [
+    4,
+    12,
+    2
+   ]
+  },
+  {
+   "label": "Taurus",
+   "target": "roeler",
+   "pos": [
+    9,
+    15,
+    2,
+    11,
+    4,
+    1
+   ],
+   "src": "redemptorelyeloy",
+   "lens": [
+    9,
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Gemini",
+   "target": "iomiot",
+   "pos": [
+    1,
+    14,
+    8,
+    12,
+    17,
+    4
+   ],
+   "src": "iustorumgenitorbon",
+   "lens": [
+    8,
+    7,
+    3
+   ]
+  },
+  {
+   "label": "Cancer",
+   "target": "isiapo",
+   "pos": [
+    4,
+    15,
+    4,
+    5,
+    7,
+    11
+   ],
+   "src": "mssiaspantonhos",
+   "lens": [
+    7,
+    6,
+    2
+   ]
+  },
+  {
+   "label": "Leo",
+   "target": "orrase",
+   "pos": [
+    11,
+    16,
+    16,
+    6,
+    7,
+    2
+   ],
+   "src": "ueritastheonspiritus",
+   "lens": [
+    7,
+    5,
+    8
+   ]
+  },
+  {
+   "label": "Virgo",
+   "target": "osacue",
+   "pos": [
+    2,
+    17,
+    8,
+    10,
+    12,
+    5
+   ],
+   "src": "sotheysanctusunus",
+   "lens": [
+    6,
+    7,
+    4
+   ]
+  },
+  {
+   "label": "Libra",
+   "target": "xuauir",
+   "pos": [
+    5,
+    6,
+    2,
+    10,
+    4,
+    8
+   ],
+   "src": "radixuirtusleo",
+   "lens": [
+    5,
+    6,
+    3
+   ]
+  },
+  {
+   "label": "Scorpio",
+   "target": "raosac",
+   "pos": [
+    8,
+    7,
+    4,
+    5,
+    20,
+    10
+   ],
+   "src": "agyosparaclitusalpha",
+   "lens": [
+    5,
+    10,
+    5
+   ]
+  },
+  {
+   "label": "Sagittarius",
+   "target": "rsadua",
+   "pos": [
+    10,
+    8,
+    4,
+    20,
+    13,
+    2
+   ],
+   "src": "damadaistrinussacerdos",
+   "lens": [
+    8,
+    6,
+    8
+   ]
+  },
+  {
+   "label": "Capricornus",
+   "target": "atroga",
+   "pos": [
+    2,
+    9,
+    7,
+    10,
+    6,
+    8
+   ],
+   "src": "iasimgratonsother",
+   "lens": [
+    5,
+    6,
+    6
+   ]
+  },
+  {
+   "label": "Aquarius",
+   "target": "sduolo",
+   "pos": [
+    8,
+    10,
+    4,
+    13,
+    5,
+    20
+   ],
+   "src": "uitulussadayoccinomos",
+   "lens": [
+    7,
+    5,
+    9
+   ]
+  },
+  {
+   "label": "Pisces",
+   "target": "aricaa",
+   "pos": [
+    20,
+    12,
+    3,
+    14,
+    18,
+    22
+   ],
+   "src": "griszonmisericorsagahay",
+   "lens": [
+    7,
+    10,
+    6
+   ]
+  },
+  {
+   "label": "Saturn",
+   "target": "osreso",
+   "pos": [
+    7,
+    9,
+    11,
+    13,
+    15,
+    17
+   ],
+   "src": "mediatorserpenssoll",
+   "lens": [
+    8,
+    7,
+    4
+   ]
+  },
+  {
+   "label": "Jupiter",
+   "target": "nieboa",
+   "pos": [
+    17,
+    15,
+    11,
+    21,
+    20,
+    6
+   ],
+   "src": "grismaictheconionecob",
+   "lens": [
+    6,
+    8,
+    7
+   ]
+  },
+  {
+   "label": "Mars",
+   "target": "oiaiae",
+   "pos": [
+    6,
+    4,
+    18,
+    13,
+    18,
+    8
+   ],
+   "src": "omnipotensgrisonuau",
+   "lens": [
+    10,
+    6,
+    3
+   ]
+  },
+  {
+   "label": "Sol",
+   "target": "itiaba",
+   "pos": [
+    8,
+    7,
+    11,
+    17,
+    19,
+    2
+   ],
+   "src": "sapientiadiuinitasborac",
+   "lens": [
+    9,
+    9,
+    5
+   ]
+  },
+  {
+   "label": "Venus",
+   "target": "adamis",
+   "pos": [
+    2,
+    14,
+    11,
+    12,
+    4,
+    7
+   ],
+   "src": "lapisysusdamad",
+   "lens": [
+    5,
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Mercury",
+   "target": "reuela",
+   "pos": [
+    7,
+    11,
+    4,
+    11,
+    3,
+    17
+   ],
+   "src": "solusgriideconagatabay",
+   "lens": [
+    5,
+    10,
+    7
+   ]
+  },
+  {
+   "label": "Moon",
+   "target": "uiseua",
+   "pos": [
+    17,
+    13,
+    14,
+    10,
+    17,
+    6
+   ],
+   "src": "borocadodegrisgruszeide",
+   "lens": [
+    8,
+    6,
+    9
+   ]
+  },
+  {
+   "label": "Fire",
+   "target": "meronf",
+   "pos": [
+    6,
+    2,
+    8,
+    12,
+    5,
+    19
+   ],
+   "src": "teronmirdeconaldelf",
+   "lens": [
+    5,
+    8,
+    6
+   ]
+  },
+  {
+   "label": "Air",
+   "target": "iliosu",
+   "pos": [
+    19,
+    11,
+    19,
+    4,
+    3,
+    8
+   ],
+   "src": "nysoarburylbunedigi",
+   "lens": [
+    6,
+    5,
+    8
+   ]
+  },
+  {
+   "label": "Water",
+   "target": "oynind",
+   "pos": [
+    8,
+    5,
+    4,
+    20,
+    4,
+    19
+   ],
+   "src": "burnylsoarlyburburdich",
+   "lens": [
+    6,
+    6,
+    10
+   ]
+  },
+  {
+   "label": "Earth",
+   "target": "iasula",
+   "pos": [
+    19,
+    2,
+    10,
+    13,
+    18,
+    9
+   ],
+   "src": "laeltornaslauaiuali",
+   "lens": [
+    4,
+    6,
+    9
+   ]
+  }
+ ],
+ "T1_vowels": {
+  "real": 82,
+  "of": 138,
+  "null_mean": 61.5,
+  "null_max": 89,
+  "p": 0.0003699963000369996,
+  "vowel_share_of_names": 0.446
+ },
+ "T2_three_names": {
+  "real": 20,
+  "of": 23,
+  "null_mean": 15.09,
+  "p_ge": 0.01915980840191598,
+  "p_le": 0.99540004599954
+ },
+ "T3_first_occurrence": {
+  "letters_with_choice": 88,
+  "first_occurrence_used": 42,
+  "expected_if_random": 35.3,
+  "p_ge": 0.08279917200827992
+ },
+ "T4_steps_up": {
+  "real": 60,
+  "of": 115,
+  "null_mean": 54.4,
+  "p_ge": 0.08193918060819391,
+  "p_le": 0.9521304786952131
+ },
+ "T5_rules": {
+  "R1_progression": {
+   "exact": 1,
+   "which": [
+    "Saturn"
+   ],
+   "wrong_book_rate_per_paragraph": 0.0
+  },
+  "R3_values_V18": {
+   "exact": 0,
+   "which": [],
+   "wrong_book_rate_per_paragraph": 0.0
+  },
+  "R4_alphabet_numbers": {
+   "exact": 0,
+   "which": [],
+   "wrong_book_rate_per_paragraph": 0.0
+  },
+  "R5_stride_reading_positions": {
+   "exact": 9,
+   "which": [
+    "Aries",
+    "Capricornus",
+    "Aquarius",
+    "Saturn",
+    "Jupiter",
+    "Mars",
+    "Mercury",
+    "Air",
+    "Water"
+   ],
+   "expected_with_random_occurrences": 10.4
+  },
+  "R2_shared_step_loo": {
+   "exact": 0,
+   "which": []
+  }
+ }
+}

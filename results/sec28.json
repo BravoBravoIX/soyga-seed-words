@@ -1,0 +1,116 @@
+{
+ "seed": 20261019,
+ "readings": {
+  "A_latin": {
+   "letters": 114,
+   "of": 138,
+   "exact_words": 13,
+   "per_item": {
+    "Aries": 6,
+    "Taurus": 4,
+    "Gemini": 6,
+    "Cancer": 4,
+    "Leo": 6,
+    "Virgo": 4,
+    "Libra": 3,
+    "Scorpio": 0,
+    "Sagittarius": 6,
+    "Capricornus": 6,
+    "Aquarius": 4,
+    "Pisces": 5,
+    "Saturn": 6,
+    "Jupiter": 6,
+    "Mars": 6,
+    "Sol": 6,
+    "Venus": 6,
+    "Mercury": 3,
+    "Moon": 5,
+    "Fire": 6,
+    "Air": 6,
+    "Water": 4,
+    "Earth": 6
+   },
+   "wrong_book_mean_letters": 13.3,
+   "random_pairings": {
+    "n": 100000,
+    "mean": 17.7,
+    "max": 55,
+    "n_ge_real": 0
+   }
+  },
+  "A_trans": {
+   "letters": 112,
+   "of": 138,
+   "exact_words": 13,
+   "per_item": {
+    "Aries": 6,
+    "Taurus": 5,
+    "Gemini": 6,
+    "Cancer": 3,
+    "Leo": 6,
+    "Virgo": 4,
+    "Libra": 2,
+    "Scorpio": 0,
+    "Sagittarius": 6,
+    "Capricornus": 6,
+    "Aquarius": 4,
+    "Pisces": 5,
+    "Saturn": 6,
+    "Jupiter": 6,
+    "Mars": 6,
+    "Sol": 6,
+    "Venus": 6,
+    "Mercury": 3,
+    "Moon": 4,
+    "Fire": 6,
+    "Air": 6,
+    "Water": 4,
+    "Earth": 6
+   },
+   "wrong_book_mean_letters": 13.2,
+   "random_pairings": {
+    "n": 100000,
+    "mean": 17.5,
+    "max": 52,
+    "n_ge_real": 0
+   }
+  },
+  "B": {
+   "letters": 131,
+   "of": 138,
+   "exact_words": 19,
+   "per_item": {
+    "Aries": 6,
+    "Taurus": 6,
+    "Gemini": 6,
+    "Cancer": 4,
+    "Leo": 6,
+    "Virgo": 6,
+    "Libra": 6,
+    "Scorpio": 6,
+    "Sagittarius": 6,
+    "Capricornus": 6,
+    "Aquarius": 6,
+    "Pisces": 5,
+    "Saturn": 6,
+    "Jupiter": 6,
+    "Mars": 6,
+    "Sol": 6,
+    "Venus": 6,
+    "Mercury": 3,
+    "Moon": 5,
+    "Fire": 6,
+    "Air": 6,
+    "Water": 6,
+    "Earth": 6
+   },
+   "wrong_book_mean_letters": 17.6,
+   "random_pairings": {
+    "n": 100000,
+    "mean": 22.6,
+    "max": 69,
+    "n_ge_real": 0
+   }
+  }
+ }
+}

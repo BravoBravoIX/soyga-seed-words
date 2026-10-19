@@ -1,0 +1,4 @@
+# Rebuilt from third-party sources by code/run_all.sh; not redistributed
+data/manuscript_excerpts.json
+sources/downloads/
+__pycache__/

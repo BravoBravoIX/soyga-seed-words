@@ -1,0 +1,631 @@
+{
+ "_source": "Kupin 2014 text layer; see name_variants.py",
+ "variants": {
+  "agla": {
+   "counts": {
+    "agla": 42,
+    "agia": 2,
+    "ala": 1
+   },
+   "admitted": []
+  },
+  "primogenitus": {
+   "counts": {
+    "primogenitus": 12,
+    "pprimogenitus": 1
+   },
+   "admitted": []
+  },
+  "on": {
+   "counts": {
+    "one": 13
+   },
+   "admitted": []
+  },
+  "redemptor": {
+   "counts": {
+    "redemptor": 14
+   },
+   "admitted": []
+  },
+  "elii": {
+   "counts": {
+    "elii": 2,
+    "eligi": 1,
+    "elie": 1,
+    "eloii": 1
+   },
+   "admitted": []
+  },
+  "eloii": {
+   "counts": {
+    "elii": 2,
+    "eloii": 1
+   },
+   "admitted": [
+    "elii"
+   ]
+  },
+  "ely": {
+   "counts": {
+    "eloy": 18,
+    "ely": 9,
+    "epy": 3
+   },
+   "admitted": []
+  },
+  "eloy": {
+   "counts": {
+    "eloy": 18,
+    "ely": 9,
+    "eloe": 1
+   },
+   "admitted": []
+  },
+  "iustorum": {
+   "counts": {
+    "istorum": 28,
+    "iustorum": 21
+   },
+   "admitted": [
+    "istorum"
+   ]
+  },
+  "genitor": {
+   "counts": {
+    "genitor": 33,
+    "gentor": 1,
+    "genitos": 1
+   },
+   "admitted": []
+  },
+  "bon": {
+   "counts": {
+    "bona": 33,
+    "bon": 21,
+    "bono": 20,
+    "boni": 20,
+    "ban": 2,
+    "ben": 1,
+    "box": 1
+   },
+   "admitted": []
+  },
+  "messias": {
+   "counts": {
+    "messias": 10,
+    "messyas": 7,
+    "messis": 1
+   },
+   "admitted": [
+    "messyas"
+   ]
+  },
+  "panton": {
+   "counts": {
+    "panton": 10,
+    "panthon": 1
+   },
+   "admitted": []
+  },
+  "hos": {
+   "counts": {
+    "hoc": 475,
+    "his": 115,
+    "has": 30,
+    "hos": 27
+   },
+   "admitted": []
+  },
+  "ueritas": {
+   "counts": {
+    "ueritas": 28
+   },
+   "admitted": []
+  },
+  "theon": {
+   "counts": {
+    "theos": 9,
+    "theon": 8,
+    "then": 7,
+    "theron": 2
+   },
+   "admitted": [
+    "then",
+    "theron"
+   ]
+  },
+  "spiritus": {
+   "counts": {
+    "spiritus": 119,
+    "spiritum": 13,
+    "spirits": 4,
+    "spiritu": 2,
+    "spritus": 1
+   },
+   "admitted": [
+    "spirits"
+   ]
+  },
+  "sothey": {
+   "counts": {
+    "sother": 15,
+    "sothey": 5,
+    "sochey": 1
+   },
+   "admitted": []
+  },
+  "sanctus": {
+   "counts": {
+    "sanctus": 48,
+    "sanctum": 18,
+    "sanctis": 5,
+    "sanctos": 3
+   },
+   "admitted": [
+    "sanctis",
+    "sanctos"
+   ]
+  },
+  "unus": {
+   "counts": {
+    "unum": 257,
+    "unus": 210,
+    "unius": 65,
+    "uenus": 28,
+    "usus": 2,
+    "uanus": 1,
+    "unu": 1,
+    "unun": 1
+   },
+   "admitted": []
+  },
+  "radix": {
+   "counts": {
+    "radii": 27,
+    "radix": 16,
+    "radio": 2,
+    "radis": 1
+   },
+   "admitted": []
+  },
+  "uirtus": {
+   "counts": {
+    "uirtus": 62,
+    "uirtues": 1
+   },
+   "admitted": []
+  },
+  "leo": {
+   "counts": {
+    "leo": 44,
+    "leuo": 1
+   },
+   "admitted": []
+  },
+  "agiios": {
+   "counts": {
+    "agios": 5,
+    "agiios": 1
+   },
+   "admitted": [
+    "agios"
+   ]
+  },
+  "paraclitus": {
+   "counts": {
+    "paraclitus": 10
+   },
+   "admitted": []
+  },
+  "alpha": {
+   "counts": {
+    "alpha": 9
+   },
+   "admitted": []
+  },
+  "agyos": {
+   "counts": {
+    "agyos": 6,
+    "agios": 5,
+    "agnos": 1
+   },
+   "admitted": [
+    "agios"
+   ]
+  },
+  "damadais": {
+   "counts": {
+    "damadais": 5,
+    "damadays": 1
+   },
+   "admitted": []
+  },
+  "trinus": {
+   "counts": {
+    "tribus": 133,
+    "trinus": 31,
+    "trinum": 2,
+    "tronus": 1,
+    "trius": 1,
+    "trinis": 1
+   },
+   "admitted": [
+    "tribus"
+   ]
+  },
+  "sacerdos": {
+   "counts": {
+    "sacerdos": 9
+   },
+   "admitted": []
+  },
+  "iasim": {
+   "counts": {
+    "iasym": 4,
+    "iasim": 3
+   },
+   "admitted": [
+    "iasym"
+   ]
+  },
+  "graton": {
+   "counts": {
+    "graton": 11
+   },
+   "admitted": []
+  },
+  "sother": {
+   "counts": {
+    "sother": 15,
+    "sothey": 5,
+    "soter": 1
+   },
+   "admitted": []
+  },
+  "uitulus": {
+   "counts": {
+    "uitulus": 8,
+    "uitulos": 1
+   },
+   "admitted": []
+  },
+  "sadaii": {
+   "counts": {
+    "sadaii": 1
+   },
+   "admitted": []
+  },
+  "occinomos": {
+   "counts": {
+    "occinomos": 6,
+    "occynomos": 1
+   },
+   "admitted": []
+  },
+  "saday": {
+   "counts": {
+    "saday": 10,
+    "sadac": 1,
+    "sada": 1
+   },
+   "admitted": []
+  },
+  "griszon": {
+   "counts": {
+    "grizon": 8,
+    "griszon": 5,
+    "grison": 4,
+    "grisbon": 1
+   },
+   "admitted": [
+    "grizon",
+    "grison"
+   ]
+  },
+  "misericors": {
+   "counts": {
+    "misericors": 17
+   },
+   "admitted": []
+  },
+  "agathay": {
+   "counts": {
+    "agatay": 7,
+    "agathay": 1
+   },
+   "admitted": [
+    "agatay"
+   ]
+  },
+  "mediator": {
+   "counts": {
+    "mediator": 9,
+    "mediato": 2
+   },
+   "admitted": []
+  },
+  "serpens": {
+   "counts": {
+    "serpens": 9
+   },
+   "admitted": []
+  },
+  "soll": {
+   "counts": {
+    "sol": 58,
+    "solo": 32,
+    "soli": 17,
+    "sola": 17,
+    "sole": 6,
+    "soll": 5
+   },
+   "admitted": []
+  },
+  "grisma": {
+   "counts": {
+    "grisma": 6,
+    "grisima": 1
+   },
+   "admitted": []
+  },
+  "icthecon": {
+   "counts": {
+    "iothecon": 3,
+    "icthecon": 1,
+    "iathecon": 1
+   },
+   "admitted": [
+    "iothecon"
+   ]
+  },
+  "ionecob": {
+   "counts": {
+    "ionecob": 4,
+    "ionocob": 2
+   },
+   "admitted": [
+    "ionocob"
+   ]
+  },
+  "iothecon": {
+   "counts": {
+    "iothecon": 3,
+    "iotecon": 2,
+    "icthecon": 1,
+    "iathecon": 1
+   },
+   "admitted": [
+    "iotecon"
+   ]
+  },
+  "omnipotens": {
+   "counts": {
+    "omnipotens": 12
+   },
+   "admitted": []
+  },
+  "grison": {
+   "counts": {
+    "grizon": 8,
+    "griszon": 5,
+    "grison": 4,
+    "grisbon": 1
+   },
+   "admitted": [
+    "grizon",
+    "griszon"
+   ]
+  },
+  "uau": {
+   "counts": {
+    "uuu": 282,
+    "uau": 27,
+    "uas": 1,
+    "uao": 1,
+    "unu": 1
+   },
+   "admitted": []
+  },
+  "sapientia": {
+   "counts": {
+    "sapientia": 18,
+    "sapientiam": 11,
+    "sapientiae": 5,
+    "sapientis": 1
+   },
+   "admitted": []
+  },
+  "diuinitas": {
+   "counts": {
+    "diuinitas": 6
+   },
+   "admitted": []
+  },
+  "borac": {
+   "counts": {
+    "borac": 6,
+    "barac": 1
+   },
+   "admitted": []
+  },
+  "lapis": {
+   "counts": {
+    "lapis": 12
+   },
+   "admitted": []
+  },
+  "ysus": {
+   "counts": {
+    "ysus": 5
+   },
+   "admitted": []
+  },
+  "damad": {
+   "counts": {
+    "dama": 8,
+    "damad": 5,
+    "damam": 4
+   },
+   "admitted": []
+  },
+  "solus": {
+   "counts": {
+    "solus": 72,
+    "solum": 24,
+    "solis": 11,
+    "salus": 7
+   },
+   "admitted": [
+    "solis",
+    "salus"
+   ]
+  },
+  "griisdecon": {
+   "counts": {
+    "grisdecon": 6,
+    "griisdecon": 1
+   },
+   "admitted": [
+    "grisdecon"
+   ]
+  },
+  "agatabaii": {
+   "counts": {
+    "agatabaii": 1
+   },
+   "admitted": []
+  },
+  "agatabay": {
+   "counts": {
+    "agatabay": 7,
+    "agathabay": 1
+   },
+   "admitted": []
+  },
+  "borocado": {
+   "counts": {
+    "borocado": 2
+   },
+   "admitted": []
+  },
+  "degris": {
+   "counts": {
+    "degris": 5
+   },
+   "admitted": []
+  },
+  "gruszeide": {
+   "counts": {
+    "gruszede": 2,
+    "gruszeide": 1
+   },
+   "admitted": [
+    "gruszede"
+   ]
+  },
+  "gruszede": {
+   "counts": {
+    "gruszede": 2,
+    "gruszeide": 1,
+    "griszede": 1
+   },
+   "admitted": []
+  },
+  "teron": {
+   "counts": {
+    "teron": 4,
+    "theron": 2,
+    "teren": 1,
+    "tero": 1
+   },
+   "admitted": [
+    "theron"
+   ]
+  },
+  "mirdecon": {
+   "counts": {
+    "mirdecon": 4
+   },
+   "admitted": []
+  },
+  "aldelf": {
+   "counts": {
+    "adelf": 2,
+    "aldelf": 2,
+    "aldef": 2
+   },
+   "admitted": [
+    "adelf",
+    "aldef"
+   ]
+  },
+  "nysoar": {
+   "counts": {
+    "nysoar": 1
+   },
+   "admitted": []
+  },
+  "buryl": {
+   "counts": {
+    "butyl": 2,
+    "buryl": 1,
+    "burnyl": 1
+   },
+   "admitted": [
+    "butyl"
+   ]
+  },
+  "bunedigi": {
+   "counts": {
+    "bunedigi": 1
+   },
+   "admitted": []
+  },
+  "burnyl": {
+   "counts": {
+    "burny": 1,
+    "buryl": 1,
+    "burnyl": 1
+   },
+   "admitted": []
+  },
+  "soarlii": {
+   "counts": {
+    "soarlii": 1
+   },
+   "admitted": []
+  },
+  "burburdich": {
+   "counts": {
+    "burburdich": 1
+   },
+   "admitted": []
+  },
+  "soarly": {
+   "counts": {
+    "soarly": 2
+   },
+   "admitted": []
+  },
+  "lael": {
+   "counts": {
+    "lael": 1
+   },
+   "admitted": []
+  },
+  "tornas": {
+   "counts": {
+    "tornal": 2,
+    "tornas": 1
+   },
+   "admitted": []
+  },
+  "lauaiuali": {
+   "counts": {
+    "lauaiuali": 1
+   },
+   "admitted": []
+  }
+ }
+}

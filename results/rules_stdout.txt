@@ -1,0 +1,5 @@
+T1_vowels {'real': 82, 'of': 138, 'null_mean': 61.5, 'null_max': 89, 'p': 0.0003699963000369996, 'vowel_share_of_names': 0.446}
+T2_three_names {'real': 20, 'of': 23, 'null_mean': 15.09, 'p_ge': 0.01915980840191598, 'p_le': 0.99540004599954}
+T3_first_occurrence {'letters_with_choice': 88, 'first_occurrence_used': 42, 'expected_if_random': 35.3, 'p_ge': 0.08279917200827992}
+T4_steps_up {'real': 60, 'of': 115, 'null_mean': 54.4, 'p_ge': 0.08193918060819391, 'p_le': 0.9521304786952131}
+T5_rules {'R1_progression': {'exact': 1, 'which': ['Saturn'], 'wrong_book_rate_per_paragraph': 0.0}, 'R3_values_V18': {'exact': 0, 'which': [], 'wrong_book_rate_per_paragraph': 0.0}, 'R4_alphabet_numbers': {'exact': 0, 'which': [], 'wrong_book_rate_per_paragraph': 0.0}, 'R5_stride_reading_positions': {'exact': 9, 'which': ['Aries', 'Capricornus', 'Aquarius', 'Saturn', 'Jupiter', 'Mars', 'Mercury', 'Air', 'Water'], 'expected_with_random_occurrences': 10.4}, 'R2_shared_step_loo': {'exact': 0, 'which': []}}
