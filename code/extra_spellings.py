@@ -350,7 +350,27 @@ def main(txt, extract_only=False):
     if extract_only:
         return
     orig = {r["n"]: r for r in json.load(open(ROOT / "results" / "repair.json"))["items"]}
-    out = {"seed": repair.SEED, "prereg": "prereg/v1.3-extra-spellings.md", "sets": {}}
+    new = {
+        w: [(k, s) for k, v in ex["names"].items() for s in v[w]]
+        for w in ("new_primary", "new_secondary")
+    }
+    out = {
+        "seed": repair.SEED,
+        "prereg": "prereg/v1.3-extra-spellings.md",
+        "extraction": {
+            "placements": len(ex["records"]),
+            "placements_by_section": dict(Counter(r["section"] for r in ex["records"])),
+            "names_with_a_placement": sum(1 for v in ex["names"].values() if v["found"]),
+            "names_without": [k for k, v in ex["names"].items() if not v["found"]],
+            "unassigned_words": len(ex["unassigned"]),
+            "unassigned_exact_other_book": sum(
+                1 for u in ex["unassigned"] if u.get("nearest_any_book") and u["nearest_any_book"][2] == 0
+            ),
+            "new_spellings": {w: len(v) for w, v in new.items()},
+            "names_with_new_spellings": {w: len({k for k, _ in v}) for w, v in new.items()},
+        },
+        "sets": {},
+    }
     for which in ("new_primary", "new_secondary", "primary_plus_listed"):
         print("==", which)
         items = score(extra_map(ex, which))

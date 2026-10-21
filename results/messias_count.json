@@ -1,0 +1,20 @@
+{
+ "_source": "Kupin 2014 text layer; see messias_count.py",
+ "latin_pages": {
+  "messias": 10,
+  "messis": 1,
+  "messya": 1,
+  "messyas": 7
+ },
+ "all_pages": {
+  "messias": 19,
+  "messis": 1,
+  "messya": 1,
+  "messyas": 16
+ },
+ "one_s_forms_anywhere": {},
+ "messias_latin": 10,
+ "messyas_latin": 7,
+ "mesias_latin": 0,
+ "mesias_anywhere": 0
+}

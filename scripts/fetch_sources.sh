@@ -29,6 +29,12 @@ for f in Teker_2026_Soyga_preprint_v1.5_submitted_text.pdf Soyga_Supplement_v1.6
   get "https://zenodo.org/api/records/23431833/files/$f/content" "$OUT/teker/$f"
 done
 
+# Onur Teker (2026), v1.7 supplement and its code (CC BY 4.0), Zenodo 10.5281/zenodo.23524253
+# (read for comparison and credit; the pipeline does not use them)
+for f in Soyga_Supplement_v1.7.pdf Soyga_v1.7_code.zip; do
+  get "https://zenodo.org/api/records/23524253/files/$f/content" "$OUT/teker/$f"
+done
+
 # Text layers of the two PDFs, which the code reads
 pdftotext -layout "$OUT/orey/1998 John Dee and the Magic Tables in the Book of Soyga - Jim Reeds.pdf" "$OUT/reeds.txt"
 pdftotext -layout "$OUT/orey/2014 The Book of Soyga - Jane Kupin.pdf" "$OUT/kupin.txt"

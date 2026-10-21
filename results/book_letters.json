@@ -1,0 +1,178 @@
+{
+ "_source": "Kupin 2014 text layer; see book_letters.py; observation: Teker 2026",
+ "paragraphs": 17,
+ "books": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  12,
+  13,
+  14,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "clear": 16,
+ "matches": 13,
+ "misses": [
+  {
+   "book": 10,
+   "first_letter_shown": "I",
+   "second_letter": "B",
+   "nth_letter": "k",
+   "result": "miss"
+  },
+  {
+   "book": 13,
+   "first_letter_shown": "h",
+   "second_letter": "m",
+   "nth_letter": "n",
+   "result": "miss"
+  },
+  {
+   "book": 18,
+   "first_letter_shown": "B",
+   "second_letter": "G",
+   "nth_letter": "s",
+   "result": "miss"
+  }
+ ],
+ "unclear": [
+  {
+   "book": 5,
+   "first_letter_shown": "V",
+   "second_letter": "se",
+   "nth_letter": "e",
+   "result": "unclear"
+  }
+ ],
+ "rows": [
+  {
+   "book": 5,
+   "first_letter_shown": "V",
+   "second_letter": "se",
+   "nth_letter": "e",
+   "result": "unclear"
+  },
+  {
+   "book": 6,
+   "first_letter_shown": "g",
+   "second_letter": "f",
+   "nth_letter": "f",
+   "result": "match"
+  },
+  {
+   "book": 7,
+   "first_letter_shown": "R",
+   "second_letter": "G",
+   "nth_letter": "g",
+   "result": "match"
+  },
+  {
+   "book": 8,
+   "first_letter_shown": "A",
+   "second_letter": "H",
+   "nth_letter": "h",
+   "result": "match"
+  },
+  {
+   "book": 9,
+   "first_letter_shown": "dicit",
+   "second_letter": "I",
+   "nth_letter": "i",
+   "result": "match"
+  },
+  {
+   "book": 10,
+   "first_letter_shown": "I",
+   "second_letter": "B",
+   "nth_letter": "k",
+   "result": "miss"
+  },
+  {
+   "book": 12,
+   "first_letter_shown": "S",
+   "second_letter": "m",
+   "nth_letter": "m",
+   "result": "match"
+  },
+  {
+   "book": 13,
+   "first_letter_shown": "h",
+   "second_letter": "m",
+   "nth_letter": "n",
+   "result": "miss"
+  },
+  {
+   "book": 14,
+   "first_letter_shown": "A",
+   "second_letter": "O",
+   "nth_letter": "o",
+   "result": "match"
+  },
+  {
+   "book": 16,
+   "first_letter_shown": "I",
+   "second_letter": "Q",
+   "nth_letter": "q",
+   "result": "match"
+  },
+  {
+   "book": 17,
+   "first_letter_shown": "V",
+   "second_letter": "R",
+   "nth_letter": "r",
+   "result": "match"
+  },
+  {
+   "book": 18,
+   "first_letter_shown": "B",
+   "second_letter": "G",
+   "nth_letter": "s",
+   "result": "miss"
+  },
+  {
+   "book": 19,
+   "first_letter_shown": "D",
+   "second_letter": "T",
+   "nth_letter": "t",
+   "result": "match"
+  },
+  {
+   "book": 20,
+   "first_letter_shown": "I",
+   "second_letter": "V",
+   "nth_letter": "u",
+   "result": "match"
+  },
+  {
+   "book": 21,
+   "first_letter_shown": "G",
+   "second_letter": "X",
+   "nth_letter": "x",
+   "result": "match"
+  },
+  {
+   "book": 22,
+   "first_letter_shown": "N",
+   "second_letter": "Y",
+   "nth_letter": "y",
+   "result": "match"
+  },
+  {
+   "book": 23,
+   "first_letter_shown": "V",
+   "second_letter": "Z",
+   "nth_letter": "z",
+   "result": "match"
+  }
+ ]
+}

@@ -1,0 +1,2243 @@
+{
+ "seed": 20261019,
+ "prereg": "prereg/v1.3-extra-spellings.md",
+ "extraction": {
+  "placements": 276,
+  "placements_by_section": {
+   "29": 116,
+   "30": 54,
+   "26": 106
+  },
+  "names_with_a_placement": 67,
+  "names_without": [
+   "23.1",
+   "23.3"
+  ],
+  "unassigned_words": 64,
+  "unassigned_exact_other_book": 41,
+  "new_spellings": {
+   "new_primary": 26,
+   "new_secondary": 8
+  },
+  "names_with_new_spellings": {
+   "new_primary": 20,
+   "new_secondary": 8
+  }
+ },
+ "sets": {
+  "new_primary": {
+   "summary": {
+    "exact_at_cost": {
+     "0": 19,
+     "1": 23,
+     "2": 23
+    },
+    "four_repairs": {
+     "isiapo": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 0.00044,
+      "original_chance": 0.00044,
+      "derivations": 3,
+      "original_derivations": 3
+     },
+     "aricaa": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 5e-05,
+      "original_chance": 5e-05,
+      "derivations": 4,
+      "original_derivations": 3
+     },
+     "reuela": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 2e-05,
+      "original_chance": 2e-05,
+      "derivations": 6,
+      "original_derivations": 6
+     },
+     "uiseua": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 4e-05,
+      "original_chance": 4e-05,
+      "derivations": 2,
+      "original_derivations": 2
+     }
+    },
+    "max_chance_at_cost1_over_all_paragraphs": 0.00274,
+    "wrong_code_words_reached": {
+     "0": 0,
+     "1": 0,
+     "2": 0
+    },
+    "wrong_code_words_detail": {}
+   },
+   "items": [
+    {
+     "n": 1,
+     "label": "Aries",
+     "target": "nisram",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00099
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 108,
+      "2": 2647
+     }
+    },
+    {
+     "n": 2,
+     "label": "Taurus",
+     "target": "roeler",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 9e-05,
+      "1": 0.00274,
+      "2": 0.03262
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 6,
+      "1": 334,
+      "2": 6825
+     }
+    },
+    {
+     "n": 3,
+     "label": "Gemini",
+     "target": "iomiot",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00012,
+      "2": 0.00195
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 54,
+      "2": 1237
+     }
+    },
+    {
+     "n": 4,
+     "label": "Cancer",
+     "target": "isiapo",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "essiaspantonhos"
+      },
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "mesiaspantonhos"
+      },
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "mssiaspantonhos"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00044,
+      "2": 0.0097
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 67,
+      "2": 1726
+     }
+    },
+    {
+     "n": 5,
+     "label": "Leo",
+     "target": "orrase",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00231
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 120,
+      "2": 2912
+     }
+    },
+    {
+     "n": 6,
+     "label": "Virgo",
+     "target": "osacue",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00011,
+      "2": 0.00221
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 81,
+      "2": 1485
+     }
+    },
+    {
+     "n": 7,
+     "label": "Libra",
+     "target": "xuauir",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00028,
+      "2": 0.00707
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 161,
+      "2": 4423
+     }
+    },
+    {
+     "n": 8,
+     "label": "Scorpio",
+     "target": "raosac",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00013,
+      "2": 0.00248
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 94,
+      "2": 2170
+     }
+    },
+    {
+     "n": 9,
+     "label": "Sagittarius",
+     "target": "rsadua",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.00038,
+      "2": 0.0052
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 104,
+      "2": 2547
+     }
+    },
+    {
+     "n": 10,
+     "label": "Capricornus",
+     "target": "atroga",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.00019,
+      "2": 0.00294
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 105,
+      "2": 2617
+     }
+    },
+    {
+     "n": 11,
+     "label": "Aquarius",
+     "target": "sduolo",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.0001,
+      "2": 0.00155
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 90,
+      "2": 2088
+     }
+    },
+    {
+     "n": 12,
+     "label": "Pisces",
+     "target": "aricaa",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagahay"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagatay"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagatai"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        23
+       ],
+       "numbers_cost": 1,
+       "names_joined": "griszonmisericorsagathay"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00208
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 3,
+      "1": 178,
+      "2": 4755
+     }
+    },
+    {
+     "n": 13,
+     "label": "Saturn",
+     "target": "osreso",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00023,
+      "2": 0.00376
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 96,
+      "2": 1985
+     }
+    },
+    {
+     "n": 14,
+     "label": "Jupiter",
+     "target": "nieboa",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00111
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 96,
+      "2": 1988
+     }
+    },
+    {
+     "n": 15,
+     "label": "Mars",
+     "target": "oiaiae",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 4e-05,
+      "2": 0.0006
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 59,
+      "2": 1490
+     }
+    },
+    {
+     "n": 16,
+     "label": "Sol",
+     "target": "itiaba",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00022,
+      "2": 0.00394
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 60,
+      "2": 1647
+     }
+    },
+    {
+     "n": 17,
+     "label": "Venus",
+     "target": "adamis",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00034,
+      "2": 0.0056
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 41,
+      "2": 750
+     }
+    },
+    {
+     "n": 18,
+     "label": "Mercury",
+     "target": "reuela",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriideconagatabay"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriideconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriiseconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgrisdeconagatabay"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgrisdeconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriiseconagatabay"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 2e-05,
+      "2": 0.00011
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 59,
+      "2": 1872
+     }
+    },
+    {
+     "n": 19,
+     "label": "Moon",
+     "target": "uiseua",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        17,
+        13,
+        14,
+        10,
+        17,
+        6
+       ],
+       "numbers_cost": 1,
+       "names_joined": "borocadodegrisgruszeide"
+      },
+      {
+       "numbers": [
+        17,
+        13,
+        14,
+        10,
+        17,
+        6
+       ],
+       "numbers_cost": 1,
+       "names_joined": "borocadodegrisgruszede"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 4e-05,
+      "2": 0.00229
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 3,
+      "1": 151,
+      "2": 3445
+     }
+    },
+    {
+     "n": 20,
+     "label": "Fire",
+     "target": "meronf",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.0001,
+      "2": 0.00208
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 102,
+      "2": 2563
+     }
+    },
+    {
+     "n": 21,
+     "label": "Air",
+     "target": "iliosu",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00055
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 106,
+      "2": 2636
+     }
+    },
+    {
+     "n": 22,
+     "label": "Water",
+     "target": "oynind",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00038
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 108,
+      "2": 2705
+     }
+    },
+    {
+     "n": 23,
+     "label": "Earth",
+     "target": "iasula",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.0007,
+      "2": 0.01835
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 93,
+      "2": 2482
+     }
+    }
+   ]
+  },
+  "new_secondary": {
+   "summary": {
+    "exact_at_cost": {
+     "0": 19,
+     "1": 23,
+     "2": 23
+    },
+    "four_repairs": {
+     "isiapo": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 0.00044,
+      "original_chance": 0.00044,
+      "derivations": 3,
+      "original_derivations": 3
+     },
+     "aricaa": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 5e-05,
+      "original_chance": 5e-05,
+      "derivations": 3,
+      "original_derivations": 3
+     },
+     "reuela": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 2e-05,
+      "original_chance": 2e-05,
+      "derivations": 6,
+      "original_derivations": 6
+     },
+     "uiseua": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 4e-05,
+      "original_chance": 4e-05,
+      "derivations": 2,
+      "original_derivations": 2
+     }
+    },
+    "max_chance_at_cost1_over_all_paragraphs": 0.00274,
+    "wrong_code_words_reached": {
+     "0": 0,
+     "1": 0,
+     "2": 0
+    },
+    "wrong_code_words_detail": {}
+   },
+   "items": [
+    {
+     "n": 1,
+     "label": "Aries",
+     "target": "nisram",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00099
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 108,
+      "2": 2646
+     }
+    },
+    {
+     "n": 2,
+     "label": "Taurus",
+     "target": "roeler",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 9e-05,
+      "1": 0.00274,
+      "2": 0.03262
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 6,
+      "1": 334,
+      "2": 6825
+     }
+    },
+    {
+     "n": 3,
+     "label": "Gemini",
+     "target": "iomiot",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00012,
+      "2": 0.00195
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 54,
+      "2": 1237
+     }
+    },
+    {
+     "n": 4,
+     "label": "Cancer",
+     "target": "isiapo",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "essiaspantonhos"
+      },
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "mesiaspantonhos"
+      },
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "mssiaspantonhos"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00044,
+      "2": 0.0097
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 67,
+      "2": 1726
+     }
+    },
+    {
+     "n": 5,
+     "label": "Leo",
+     "target": "orrase",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00231
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 120,
+      "2": 2912
+     }
+    },
+    {
+     "n": 6,
+     "label": "Virgo",
+     "target": "osacue",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00011,
+      "2": 0.00221
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 81,
+      "2": 1476
+     }
+    },
+    {
+     "n": 7,
+     "label": "Libra",
+     "target": "xuauir",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00028,
+      "2": 0.00707
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 161,
+      "2": 4423
+     }
+    },
+    {
+     "n": 8,
+     "label": "Scorpio",
+     "target": "raosac",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00013,
+      "2": 0.00248
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 94,
+      "2": 2170
+     }
+    },
+    {
+     "n": 9,
+     "label": "Sagittarius",
+     "target": "rsadua",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.00038,
+      "2": 0.00519
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 103,
+      "2": 2489
+     }
+    },
+    {
+     "n": 10,
+     "label": "Capricornus",
+     "target": "atroga",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.00019,
+      "2": 0.00294
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 105,
+      "2": 2613
+     }
+    },
+    {
+     "n": 11,
+     "label": "Aquarius",
+     "target": "sduolo",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.0001,
+      "2": 0.00155
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 88,
+      "2": 2017
+     }
+    },
+    {
+     "n": 12,
+     "label": "Pisces",
+     "target": "aricaa",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagahay"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagatay"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        23
+       ],
+       "numbers_cost": 1,
+       "names_joined": "griszonmisericorsagathay"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00208
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 3,
+      "1": 178,
+      "2": 4755
+     }
+    },
+    {
+     "n": 13,
+     "label": "Saturn",
+     "target": "osreso",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00023,
+      "2": 0.00376
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 96,
+      "2": 1985
+     }
+    },
+    {
+     "n": 14,
+     "label": "Jupiter",
+     "target": "nieboa",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00111
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 96,
+      "2": 1988
+     }
+    },
+    {
+     "n": 15,
+     "label": "Mars",
+     "target": "oiaiae",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 4e-05,
+      "2": 0.0006
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 59,
+      "2": 1490
+     }
+    },
+    {
+     "n": 16,
+     "label": "Sol",
+     "target": "itiaba",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00022,
+      "2": 0.00394
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 60,
+      "2": 1647
+     }
+    },
+    {
+     "n": 17,
+     "label": "Venus",
+     "target": "adamis",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00034,
+      "2": 0.0056
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 41,
+      "2": 750
+     }
+    },
+    {
+     "n": 18,
+     "label": "Mercury",
+     "target": "reuela",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriideconagatabay"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriideconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriiseconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgrisdeconagatabay"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgrisdeconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriiseconagatabay"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 2e-05,
+      "2": 0.00011
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 59,
+      "2": 1869
+     }
+    },
+    {
+     "n": 19,
+     "label": "Moon",
+     "target": "uiseua",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        17,
+        13,
+        14,
+        10,
+        17,
+        6
+       ],
+       "numbers_cost": 1,
+       "names_joined": "borocadodegrisgruszeide"
+      },
+      {
+       "numbers": [
+        17,
+        13,
+        14,
+        10,
+        17,
+        6
+       ],
+       "numbers_cost": 1,
+       "names_joined": "borocadodegrisgruszede"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 4e-05,
+      "2": 0.00229
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 3,
+      "1": 151,
+      "2": 3444
+     }
+    },
+    {
+     "n": 20,
+     "label": "Fire",
+     "target": "meronf",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.0001,
+      "2": 0.00208
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 102,
+      "2": 2563
+     }
+    },
+    {
+     "n": 21,
+     "label": "Air",
+     "target": "iliosu",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00055
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 106,
+      "2": 2636
+     }
+    },
+    {
+     "n": 22,
+     "label": "Water",
+     "target": "oynind",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00034
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 104,
+      "2": 2559
+     }
+    },
+    {
+     "n": 23,
+     "label": "Earth",
+     "target": "iasula",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.0007,
+      "2": 0.01835
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 93,
+      "2": 2482
+     }
+    }
+   ]
+  },
+  "primary_plus_listed": {
+   "summary": {
+    "exact_at_cost": {
+     "0": 19,
+     "1": 23,
+     "2": 23
+    },
+    "four_repairs": {
+     "isiapo": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 0.00044,
+      "original_chance": 0.00044,
+      "derivations": 3,
+      "original_derivations": 3
+     },
+     "aricaa": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 5e-05,
+      "original_chance": 5e-05,
+      "derivations": 4,
+      "original_derivations": 3
+     },
+     "reuela": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 2e-05,
+      "original_chance": 2e-05,
+      "derivations": 6,
+      "original_derivations": 6
+     },
+     "uiseua": {
+      "least_cost": 1,
+      "original_least_cost": 1,
+      "chance": 4e-05,
+      "original_chance": 4e-05,
+      "derivations": 2,
+      "original_derivations": 2
+     }
+    },
+    "max_chance_at_cost1_over_all_paragraphs": 0.00274,
+    "wrong_code_words_reached": {
+     "0": 0,
+     "1": 0,
+     "2": 0
+    },
+    "wrong_code_words_detail": {}
+   },
+   "items": [
+    {
+     "n": 1,
+     "label": "Aries",
+     "target": "nisram",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00099
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 108,
+      "2": 2647
+     }
+    },
+    {
+     "n": 2,
+     "label": "Taurus",
+     "target": "roeler",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 9e-05,
+      "1": 0.00274,
+      "2": 0.03262
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 6,
+      "1": 334,
+      "2": 6825
+     }
+    },
+    {
+     "n": 3,
+     "label": "Gemini",
+     "target": "iomiot",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00012,
+      "2": 0.00195
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 54,
+      "2": 1237
+     }
+    },
+    {
+     "n": 4,
+     "label": "Cancer",
+     "target": "isiapo",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "essiaspantonhos"
+      },
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "mesiaspantonhos"
+      },
+      {
+       "numbers": [
+        4,
+        15,
+        4,
+        5,
+        7,
+        11
+       ],
+       "numbers_cost": 0,
+       "names_joined": "mssiaspantonhos"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00044,
+      "2": 0.0097
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 67,
+      "2": 1726
+     }
+    },
+    {
+     "n": 5,
+     "label": "Leo",
+     "target": "orrase",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00231
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 120,
+      "2": 2912
+     }
+    },
+    {
+     "n": 6,
+     "label": "Virgo",
+     "target": "osacue",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00011,
+      "2": 0.00221
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 81,
+      "2": 1485
+     }
+    },
+    {
+     "n": 7,
+     "label": "Libra",
+     "target": "xuauir",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00028,
+      "2": 0.00707
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 161,
+      "2": 4423
+     }
+    },
+    {
+     "n": 8,
+     "label": "Scorpio",
+     "target": "raosac",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00013,
+      "2": 0.00248
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 94,
+      "2": 2170
+     }
+    },
+    {
+     "n": 9,
+     "label": "Sagittarius",
+     "target": "rsadua",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.00038,
+      "2": 0.0052
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 104,
+      "2": 2547
+     }
+    },
+    {
+     "n": 10,
+     "label": "Capricornus",
+     "target": "atroga",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.00019,
+      "2": 0.00294
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 105,
+      "2": 2617
+     }
+    },
+    {
+     "n": 11,
+     "label": "Aquarius",
+     "target": "sduolo",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.0001,
+      "2": 0.00155
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 90,
+      "2": 2088
+     }
+    },
+    {
+     "n": 12,
+     "label": "Pisces",
+     "target": "aricaa",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagahay"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagatay"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        22
+       ],
+       "numbers_cost": 0,
+       "names_joined": "griszonmisericorsagatai"
+      },
+      {
+       "numbers": [
+        20,
+        12,
+        3,
+        14,
+        18,
+        23
+       ],
+       "numbers_cost": 1,
+       "names_joined": "griszonmisericorsagathay"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00208
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 3,
+      "1": 178,
+      "2": 4755
+     }
+    },
+    {
+     "n": 13,
+     "label": "Saturn",
+     "target": "osreso",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00023,
+      "2": 0.00376
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 96,
+      "2": 1985
+     }
+    },
+    {
+     "n": 14,
+     "label": "Jupiter",
+     "target": "nieboa",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 5e-05,
+      "2": 0.00111
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 96,
+      "2": 1988
+     }
+    },
+    {
+     "n": 15,
+     "label": "Mars",
+     "target": "oiaiae",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 4e-05,
+      "2": 0.0006
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 59,
+      "2": 1490
+     }
+    },
+    {
+     "n": 16,
+     "label": "Sol",
+     "target": "itiaba",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00022,
+      "2": 0.00394
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 60,
+      "2": 1647
+     }
+    },
+    {
+     "n": 17,
+     "label": "Venus",
+     "target": "adamis",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.00034,
+      "2": 0.0056
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 41,
+      "2": 751
+     }
+    },
+    {
+     "n": 18,
+     "label": "Mercury",
+     "target": "reuela",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriideconagatabay"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriideconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriiseconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgrisdeconagatabay"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgrisdeconagatabaii"
+      },
+      {
+       "numbers": [
+        7,
+        11,
+        4,
+        11,
+        3,
+        17
+       ],
+       "numbers_cost": 0,
+       "names_joined": "solusgriiseconagatabay"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 2e-05,
+      "2": 0.00011
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 59,
+      "2": 1872
+     }
+    },
+    {
+     "n": 19,
+     "label": "Moon",
+     "target": "uiseua",
+     "least_cost": 1,
+     "derivations_at_least_cost": [
+      {
+       "numbers": [
+        17,
+        13,
+        14,
+        10,
+        17,
+        6
+       ],
+       "numbers_cost": 1,
+       "names_joined": "borocadodegrisgruszeide"
+      },
+      {
+       "numbers": [
+        17,
+        13,
+        14,
+        10,
+        17,
+        6
+       ],
+       "numbers_cost": 1,
+       "names_joined": "borocadodegrisgruszede"
+      }
+     ],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 4e-05,
+      "2": 0.00229
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 3,
+      "1": 151,
+      "2": 3445
+     }
+    },
+    {
+     "n": 20,
+     "label": "Fire",
+     "target": "meronf",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 0.0001,
+      "2": 0.00208
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 102,
+      "2": 2563
+     }
+    },
+    {
+     "n": 21,
+     "label": "Air",
+     "target": "iliosu",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00055
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 106,
+      "2": 2636
+     }
+    },
+    {
+     "n": 22,
+     "label": "Water",
+     "target": "oynind",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 0.0,
+      "1": 1e-05,
+      "2": 0.00038
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 2,
+      "1": 108,
+      "2": 2705
+     }
+    },
+    {
+     "n": 23,
+     "label": "Earth",
+     "target": "iasula",
+     "least_cost": 0,
+     "derivations_at_least_cost": [],
+     "chance_random_word": {
+      "0": 1e-05,
+      "1": 0.0007,
+      "2": 0.01847
+     },
+     "other_code_words_reached": {
+      "0": [],
+      "1": [],
+      "2": []
+     },
+     "reachable_sizes": {
+      "0": 1,
+      "1": 93,
+      "2": 2553
+     }
+    }
+   ]
+  }
+ }
+}
