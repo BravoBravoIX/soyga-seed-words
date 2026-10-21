@@ -1,0 +1,3867 @@
+{
+ "_source": "Kupin 2014 text layer; see extra_spellings.py",
+ "books_found_in_26": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "records": [
+  {
+   "section": "29",
+   "book": 1,
+   "k": 0,
+   "spelling": "Agla",
+   "how": "one name, nearest",
+   "context": "O altissime"
+  },
+  {
+   "section": "29",
+   "book": 1,
+   "k": 1,
+   "spelling": "Primogentius",
+   "how": "one name, nearest",
+   "context": "O almissime"
+  },
+  {
+   "section": "29",
+   "book": 1,
+   "k": 2,
+   "spelling": "On",
+   "how": "one name, nearest",
+   "context": "O altissime{amiscissime}"
+  },
+  {
+   "section": "29",
+   "book": 1,
+   "k": 0,
+   "spelling": "Agla",
+   "how": "3 names, place 1",
+   "context": "O acceptissime"
+  },
+  {
+   "section": "29",
+   "book": 1,
+   "k": 1,
+   "spelling": "Primogenitus",
+   "how": "3 names, place 2",
+   "context": "O acceptissime"
+  },
+  {
+   "section": "29",
+   "book": 1,
+   "k": 2,
+   "spelling": "On",
+   "how": "3 names, place 3",
+   "context": "O acceptissime"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 0,
+   "spelling": "Redemptor",
+   "how": "one name, nearest",
+   "context": "O beatissime"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 1,
+   "spelling": "Elii",
+   "how": "one name, nearest",
+   "context": "O benedictissime"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 1,
+   "spelling": "Ely",
+   "how": "one name, nearest",
+   "context": "O benedictissime"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 2,
+   "spelling": "Eloy",
+   "how": "one name, nearest",
+   "context": "O benignissimum"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 0,
+   "spelling": "Redemptor",
+   "how": "3 names, place 1",
+   "context": "O bonissime"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 1,
+   "spelling": "Ely",
+   "how": "3 names, place 2",
+   "context": "O bonissime"
+  },
+  {
+   "section": "29",
+   "book": 2,
+   "k": 2,
+   "spelling": "Eloy",
+   "how": "3 names, place 3",
+   "context": "O bonissime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 0,
+   "spelling": "Iustorum",
+   "how": "one name, nearest",
+   "context": "O castissime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 1,
+   "spelling": "Genitor",
+   "how": "one name, nearest",
+   "context": "O clarissime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 2,
+   "spelling": "Bon",
+   "how": "one name, nearest",
+   "context": "O celsissime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 0,
+   "spelling": "Iustorum",
+   "how": "3 names, place 1",
+   "context": "O celeberrime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 1,
+   "spelling": "Genitor",
+   "how": "3 names, place 2",
+   "context": "O celeberrime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 2,
+   "spelling": "Bon",
+   "how": "3 names, place 3",
+   "context": "O celeberrime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 0,
+   "spelling": "Iustorum",
+   "how": "3 names, place 1",
+   "context": "O clementissime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 1,
+   "spelling": "Genitor",
+   "how": "3 names, place 2",
+   "context": "O clementissime"
+  },
+  {
+   "section": "29",
+   "book": 3,
+   "k": 2,
+   "spelling": "Bon",
+   "how": "3 names, place 3",
+   "context": "O clementissime"
+  },
+  {
+   "section": "29",
+   "book": 4,
+   "k": 0,
+   "spelling": "Messias",
+   "how": "one name, nearest",
+   "context": "O decentissime"
+  },
+  {
+   "section": "29",
+   "book": 4,
+   "k": 1,
+   "spelling": "Panton",
+   "how": "one name, nearest",
+   "context": "O decorissime"
+  },
+  {
+   "section": "29",
+   "book": 4,
+   "k": 2,
+   "spelling": "Hos",
+   "how": "one name, nearest",
+   "context": "O dilectissime"
+  },
+  {
+   "section": "29",
+   "book": 4,
+   "k": 0,
+   "spelling": "Messias",
+   "how": "3 names, place 1",
+   "context": "O dulcissime"
+  },
+  {
+   "section": "29",
+   "book": 4,
+   "k": 1,
+   "spelling": "Panton",
+   "how": "3 names, place 2",
+   "context": "O dulcissime"
+  },
+  {
+   "section": "29",
+   "book": 4,
+   "k": 2,
+   "spelling": "Hos",
+   "how": "3 names, place 3",
+   "context": "O dulcissime"
+  },
+  {
+   "section": "29",
+   "book": 5,
+   "k": 0,
+   "spelling": "Veritas",
+   "how": "one name, nearest",
+   "context": "O exceltissime"
+  },
+  {
+   "section": "29",
+   "book": 5,
+   "k": 1,
+   "spelling": "Theon",
+   "how": "one name, nearest",
+   "context": "O excellentissime"
+  },
+  {
+   "section": "29",
+   "book": 5,
+   "k": 2,
+   "spelling": "Spiritus",
+   "how": "one name, nearest",
+   "context": "O emenentissime"
+  },
+  {
+   "section": "29",
+   "book": 5,
+   "k": 0,
+   "spelling": "Veritas",
+   "how": "one name, nearest",
+   "context": "O electissime"
+  },
+  {
+   "section": "29",
+   "book": 5,
+   "k": 1,
+   "spelling": "Theon",
+   "how": "2 names, place 1",
+   "context": "O elegantissime"
+  },
+  {
+   "section": "29",
+   "book": 5,
+   "k": 2,
+   "spelling": "Spiritus",
+   "how": "2 names, place 2",
+   "context": "O elegantissime"
+  },
+  {
+   "section": "29",
+   "book": 6,
+   "k": 0,
+   "spelling": "Sothey",
+   "how": "one name, nearest",
+   "context": "O felicissime"
+  },
+  {
+   "section": "29",
+   "book": 6,
+   "k": 1,
+   "spelling": "Sanctus",
+   "how": "one name, nearest",
+   "context": "O fidelissime."
+  },
+  {
+   "section": "29",
+   "book": 6,
+   "k": 2,
+   "spelling": "Unus",
+   "how": "one name, nearest",
+   "context": "O fortissime"
+  },
+  {
+   "section": "29",
+   "book": 6,
+   "k": 0,
+   "spelling": "Sothey",
+   "how": "3 names, place 1",
+   "context": "O fulgidissime"
+  },
+  {
+   "section": "29",
+   "book": 6,
+   "k": 1,
+   "spelling": "Sanctus",
+   "how": "3 names, place 2",
+   "context": "O fulgidissime"
+  },
+  {
+   "section": "29",
+   "book": 6,
+   "k": 2,
+   "spelling": "Unus",
+   "how": "3 names, place 3",
+   "context": "O fulgidissime"
+  },
+  {
+   "section": "29",
+   "book": 7,
+   "k": 0,
+   "spelling": "Radix",
+   "how": "one name, nearest",
+   "context": "O gratissime"
+  },
+  {
+   "section": "29",
+   "book": 7,
+   "k": 1,
+   "spelling": "Virtus",
+   "how": "one name, nearest",
+   "context": "O graciosissime"
+  },
+  {
+   "section": "29",
+   "book": 7,
+   "k": 2,
+   "spelling": "Leo",
+   "how": "one name, nearest",
+   "context": "O generosissime"
+  },
+  {
+   "section": "29",
+   "book": 7,
+   "k": 0,
+   "spelling": "Radix",
+   "how": "one name, nearest",
+   "context": "O generalissime"
+  },
+  {
+   "section": "29",
+   "book": 7,
+   "k": 1,
+   "spelling": "Virtus",
+   "how": "2 names, place 1",
+   "context": "O gloriosissime"
+  },
+  {
+   "section": "29",
+   "book": 7,
+   "k": 2,
+   "spelling": "Leo",
+   "how": "2 names, place 2",
+   "context": "O gloriosissime"
+  },
+  {
+   "section": "29",
+   "book": 8,
+   "k": 0,
+   "spelling": "Agyos",
+   "how": "one name, nearest",
+   "context": "O habilissime"
+  },
+  {
+   "section": "29",
+   "book": 8,
+   "k": 1,
+   "spelling": "Paraclitus",
+   "how": "one name, nearest",
+   "context": "O honetissime[?]"
+  },
+  {
+   "section": "29",
+   "book": 8,
+   "k": 2,
+   "spelling": "Alpha",
+   "how": "one name, nearest",
+   "context": "O honoratissime"
+  },
+  {
+   "section": "29",
+   "book": 8,
+   "k": 0,
+   "spelling": "Agyos",
+   "how": "one name, nearest",
+   "context": "O humanissime"
+  },
+  {
+   "section": "29",
+   "book": 8,
+   "k": 1,
+   "spelling": "Paraclitus",
+   "how": "2 names, place 1",
+   "context": "O humillime"
+  },
+  {
+   "section": "29",
+   "book": 8,
+   "k": 2,
+   "spelling": "Alpha",
+   "how": "2 names, place 2",
+   "context": "O humillime"
+  },
+  {
+   "section": "29",
+   "book": 9,
+   "k": 0,
+   "spelling": "Damadais",
+   "how": "one name, nearest",
+   "context": "O illustrissime"
+  },
+  {
+   "section": "29",
+   "book": 9,
+   "k": 1,
+   "spelling": "Trinus",
+   "how": "one name, nearest",
+   "context": "O insignisissime"
+  },
+  {
+   "section": "29",
+   "book": 9,
+   "k": 2,
+   "spelling": "Sacerdos",
+   "how": "one name, nearest",
+   "context": "O innoscentissime"
+  },
+  {
+   "section": "29",
+   "book": 9,
+   "k": 0,
+   "spelling": "Damadais",
+   "how": "one name, nearest",
+   "context": "O iocundissime"
+  },
+  {
+   "section": "29",
+   "book": 9,
+   "k": 1,
+   "spelling": "Trinus",
+   "how": "2 names, place 1",
+   "context": "O iusticime"
+  },
+  {
+   "section": "29",
+   "book": 9,
+   "k": 2,
+   "spelling": "Sacerdos",
+   "how": "2 names, place 2",
+   "context": "O iusticime"
+  },
+  {
+   "section": "29",
+   "book": 10,
+   "k": 0,
+   "spelling": "Iasim",
+   "how": "3 names, place 1",
+   "context": "O karissime"
+  },
+  {
+   "section": "29",
+   "book": 10,
+   "k": 1,
+   "spelling": "Graton",
+   "how": "3 names, place 2",
+   "context": "O karissime"
+  },
+  {
+   "section": "29",
+   "book": 10,
+   "k": 2,
+   "spelling": "Sother",
+   "how": "3 names, place 3",
+   "context": "O karissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 0,
+   "spelling": "Vitulus",
+   "how": "one name, nearest",
+   "context": "O largisissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 1,
+   "spelling": "Saday",
+   "how": "one name, nearest",
+   "context": "O letissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 2,
+   "spelling": "Hoccinosnos",
+   "how": "one name, nearest",
+   "context": "O liberalissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 2,
+   "spelling": "Hoccinomas",
+   "how": "one name, nearest",
+   "context": "O liberalissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 0,
+   "spelling": "Vitulus",
+   "how": "one name, nearest",
+   "context": "O locupletissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 1,
+   "spelling": "Saday",
+   "how": "2 names, place 1",
+   "context": "O lucidissime"
+  },
+  {
+   "section": "29",
+   "book": 11,
+   "k": 2,
+   "spelling": "Occinomos",
+   "how": "2 names, place 2",
+   "context": "O lucidissime"
+  },
+  {
+   "section": "29",
+   "book": 12,
+   "k": 0,
+   "spelling": "Griszon",
+   "how": "one name, nearest",
+   "context": "O maxime"
+  },
+  {
+   "section": "29",
+   "book": 12,
+   "k": 1,
+   "spelling": "Misericors",
+   "how": "one name, nearest",
+   "context": "O misericordissime"
+  },
+  {
+   "section": "29",
+   "book": 12,
+   "k": 2,
+   "spelling": "Agatay",
+   "how": "one name, nearest",
+   "context": "O modestissime"
+  },
+  {
+   "section": "29",
+   "book": 12,
+   "k": 0,
+   "spelling": "Griszon",
+   "how": "3 names, place 1",
+   "context": "O mundissime"
+  },
+  {
+   "section": "29",
+   "book": 12,
+   "k": 1,
+   "spelling": "Misericors",
+   "how": "3 names, place 2",
+   "context": "O mundissime"
+  },
+  {
+   "section": "29",
+   "book": 12,
+   "k": 2,
+   "spelling": "Agatay",
+   "how": "3 names, place 3",
+   "context": "O mundissime"
+  },
+  {
+   "section": "29",
+   "book": 13,
+   "k": 0,
+   "spelling": "Mediator",
+   "how": "one name, nearest",
+   "context": "O natrualissime"
+  },
+  {
+   "section": "29",
+   "book": 13,
+   "k": 1,
+   "spelling": "Serpens",
+   "how": "one name, nearest",
+   "context": "O nitidissime"
+  },
+  {
+   "section": "29",
+   "book": 13,
+   "k": 2,
+   "spelling": "Soll",
+   "how": "one name, nearest",
+   "context": "O nominatissime"
+  },
+  {
+   "section": "29",
+   "book": 13,
+   "k": 0,
+   "spelling": "Mediator",
+   "how": "3 names, place 1",
+   "context": "O notissime"
+  },
+  {
+   "section": "29",
+   "book": 13,
+   "k": 1,
+   "spelling": "Serpens",
+   "how": "3 names, place 2",
+   "context": "O notissime"
+  },
+  {
+   "section": "29",
+   "book": 13,
+   "k": 2,
+   "spelling": "Soll",
+   "how": "3 names, place 3",
+   "context": "O notissime"
+  },
+  {
+   "section": "29",
+   "book": 14,
+   "k": 0,
+   "spelling": "Grisma",
+   "how": "one name, nearest",
+   "context": "O optime"
+  },
+  {
+   "section": "29",
+   "book": 14,
+   "k": 1,
+   "spelling": "Iothecon",
+   "how": "one name, nearest",
+   "context": "O opulentissime"
+  },
+  {
+   "section": "29",
+   "book": 14,
+   "k": 2,
+   "spelling": "Ionecob",
+   "how": "one name, nearest",
+   "context": "O ornatissime"
+  },
+  {
+   "section": "29",
+   "book": 14,
+   "k": 0,
+   "spelling": "Grisma",
+   "how": "3 names, place 1",
+   "context": "O ordinatissime"
+  },
+  {
+   "section": "29",
+   "book": 14,
+   "k": 1,
+   "spelling": "Iothecon",
+   "how": "3 names, place 2",
+   "context": "O ordinatissime"
+  },
+  {
+   "section": "29",
+   "book": 14,
+   "k": 2,
+   "spelling": "Ionecob",
+   "how": "3 names, place 3",
+   "context": "O ordinatissime"
+  },
+  {
+   "section": "29",
+   "book": 15,
+   "k": 0,
+   "spelling": "Omnipotens",
+   "how": "one name, nearest",
+   "context": "O patientissime"
+  },
+  {
+   "section": "29",
+   "book": 15,
+   "k": 1,
+   "spelling": "Grison",
+   "how": "one name, nearest",
+   "context": "O preciosissime"
+  },
+  {
+   "section": "29",
+   "book": 15,
+   "k": 2,
+   "spelling": "Vau",
+   "how": "one name, nearest",
+   "context": "O pilissime"
+  },
+  {
+   "section": "29",
+   "book": 15,
+   "k": 0,
+   "spelling": "Omnipotens",
+   "how": "one name, nearest",
+   "context": "O potentissime"
+  },
+  {
+   "section": "29",
+   "book": 15,
+   "k": 1,
+   "spelling": "Grison",
+   "how": "2 names, place 1",
+   "context": "O pulcherrime"
+  },
+  {
+   "section": "29",
+   "book": 15,
+   "k": 2,
+   "spelling": "Vau",
+   "how": "2 names, place 2",
+   "context": "O pulcherrime"
+  },
+  {
+   "section": "29",
+   "book": 16,
+   "k": 0,
+   "spelling": "Sapientia",
+   "how": "3 names, place 1",
+   "context": "O quietissime"
+  },
+  {
+   "section": "29",
+   "book": 16,
+   "k": 1,
+   "spelling": "Divinitas",
+   "how": "3 names, place 2",
+   "context": "O quietissime"
+  },
+  {
+   "section": "29",
+   "book": 16,
+   "k": 2,
+   "spelling": "Borac",
+   "how": "3 names, place 3",
+   "context": "O quietissime"
+  },
+  {
+   "section": "29",
+   "book": 17,
+   "k": 0,
+   "spelling": "Lapis",
+   "how": "one name, nearest",
+   "context": "O regalissime"
+  },
+  {
+   "section": "29",
+   "book": 17,
+   "k": 1,
+   "spelling": "Ysus",
+   "how": "one name, nearest",
+   "context": "O rectissime"
+  },
+  {
+   "section": "29",
+   "book": 17,
+   "k": 2,
+   "spelling": "Damad",
+   "how": "one name, nearest",
+   "context": "O reverentissime"
+  },
+  {
+   "section": "29",
+   "book": 17,
+   "k": 0,
+   "spelling": "Lapis",
+   "how": "one name, nearest",
+   "context": "O regularissime"
+  },
+  {
+   "section": "29",
+   "book": 17,
+   "k": 1,
+   "spelling": "Ysus",
+   "how": "2 names, place 1",
+   "context": "O religiosissime"
+  },
+  {
+   "section": "29",
+   "book": 17,
+   "k": 2,
+   "spelling": "Damad",
+   "how": "2 names, place 2",
+   "context": "O religiosissime"
+  },
+  {
+   "section": "29",
+   "book": 18,
+   "k": 0,
+   "spelling": "Solus",
+   "how": "one name, nearest",
+   "context": "O sanctissime"
+  },
+  {
+   "section": "29",
+   "book": 18,
+   "k": 1,
+   "spelling": "Grisdecon",
+   "how": "one name, nearest",
+   "context": "O speciosissime"
+  },
+  {
+   "section": "29",
+   "book": 18,
+   "k": 2,
+   "spelling": "Agatabay",
+   "how": "one name, nearest",
+   "context": "O sincerissime"
+  },
+  {
+   "section": "29",
+   "book": 18,
+   "k": 0,
+   "spelling": "Solus",
+   "how": "one name, nearest",
+   "context": "O sollertissime"
+  },
+  {
+   "section": "29",
+   "book": 18,
+   "k": 1,
+   "spelling": "Grisdecon",
+   "how": "2 names, place 1",
+   "context": "O sublimissime"
+  },
+  {
+   "section": "29",
+   "book": 18,
+   "k": 2,
+   "spelling": "Agatabay",
+   "how": "2 names, place 2",
+   "context": "O sublimissime"
+  },
+  {
+   "section": "29",
+   "book": 19,
+   "k": 0,
+   "spelling": "Borocado",
+   "how": "3 names, place 1",
+   "context": "O timorosissime"
+  },
+  {
+   "section": "29",
+   "book": 19,
+   "k": 1,
+   "spelling": "Degris",
+   "how": "3 names, place 2",
+   "context": "O timorosissime"
+  },
+  {
+   "section": "29",
+   "book": 19,
+   "k": 2,
+   "spelling": "Gruszede",
+   "how": "3 names, place 3",
+   "context": "O timorosissime"
+  },
+  {
+   "section": "29",
+   "book": 20,
+   "k": 0,
+   "spelling": "Teron",
+   "how": "one name, nearest",
+   "context": "O validissime"
+  },
+  {
+   "section": "29",
+   "book": 20,
+   "k": 1,
+   "spelling": "Mirdecon",
+   "how": "one name, nearest",
+   "context": "O verissime"
+  },
+  {
+   "section": "29",
+   "book": 20,
+   "k": 2,
+   "spelling": "Aldef",
+   "how": "one name, nearest",
+   "context": "O venustissime"
+  },
+  {
+   "section": "29",
+   "book": 20,
+   "k": 0,
+   "spelling": "Teron",
+   "how": "one name, nearest",
+   "context": "O venerabilissime"
+  },
+  {
+   "section": "29",
+   "book": 20,
+   "k": 1,
+   "spelling": "Mirdecon",
+   "how": "one name, nearest",
+   "context": "O virtuosissime"
+  },
+  {
+   "section": "29",
+   "book": 20,
+   "k": 2,
+   "spelling": "Aldef",
+   "how": "one name, nearest",
+   "context": "O victoriorissime"
+  },
+  {
+   "section": "30",
+   "book": 1,
+   "k": 0,
+   "spelling": "Agla",
+   "how": "paragraph start",
+   "context": "Agla"
+  },
+  {
+   "section": "30",
+   "book": 1,
+   "k": 1,
+   "spelling": "Primogenitus",
+   "how": "paragraph start",
+   "context": "Primogenitus"
+  },
+  {
+   "section": "30",
+   "book": 1,
+   "k": 2,
+   "spelling": "On",
+   "how": "paragraph start",
+   "context": "On"
+  },
+  {
+   "section": "30",
+   "book": 2,
+   "k": 0,
+   "spelling": "Redemptor",
+   "how": "paragraph start",
+   "context": "Redemptor"
+  },
+  {
+   "section": "30",
+   "book": 2,
+   "k": 1,
+   "spelling": "Ely",
+   "how": "paragraph start",
+   "context": "Ely"
+  },
+  {
+   "section": "30",
+   "book": 2,
+   "k": 2,
+   "spelling": "Eloy",
+   "how": "paragraph start",
+   "context": "Eloy"
+  },
+  {
+   "section": "30",
+   "book": 3,
+   "k": 0,
+   "spelling": "Iustorum",
+   "how": "paragraph start",
+   "context": "Iustorum"
+  },
+  {
+   "section": "30",
+   "book": 3,
+   "k": 1,
+   "spelling": "Genitor",
+   "how": "paragraph start",
+   "context": "Genitor"
+  },
+  {
+   "section": "30",
+   "book": 4,
+   "k": 0,
+   "spelling": "Messias",
+   "how": "paragraph start",
+   "context": "Messias"
+  },
+  {
+   "section": "30",
+   "book": 4,
+   "k": 1,
+   "spelling": "Panton",
+   "how": "paragraph start",
+   "context": "Panton"
+  },
+  {
+   "section": "30",
+   "book": 4,
+   "k": 2,
+   "spelling": "Hos",
+   "how": "word before observance verb",
+   "context": "Hos"
+  },
+  {
+   "section": "30",
+   "book": 5,
+   "k": 0,
+   "spelling": "Veritas",
+   "how": "paragraph start",
+   "context": "Veritas"
+  },
+  {
+   "section": "30",
+   "book": 5,
+   "k": 1,
+   "spelling": "Theon",
+   "how": "paragraph start",
+   "context": "Theon"
+  },
+  {
+   "section": "30",
+   "book": 5,
+   "k": 2,
+   "spelling": "Spiritus",
+   "how": "paragraph start",
+   "context": "Spiritus"
+  },
+  {
+   "section": "30",
+   "book": 6,
+   "k": 0,
+   "spelling": "Sothey",
+   "how": "paragraph start",
+   "context": "Sothey"
+  },
+  {
+   "section": "30",
+   "book": 6,
+   "k": 1,
+   "spelling": "Sanctus",
+   "how": "paragraph start",
+   "context": "Sanctus"
+  },
+  {
+   "section": "30",
+   "book": 6,
+   "k": 2,
+   "spelling": "Unus",
+   "how": "paragraph start",
+   "context": "Unus"
+  },
+  {
+   "section": "30",
+   "book": 8,
+   "k": 0,
+   "spelling": "Agyos",
+   "how": "paragraph start",
+   "context": "Agyos"
+  },
+  {
+   "section": "30",
+   "book": 8,
+   "k": 1,
+   "spelling": "Paraclitus",
+   "how": "paragraph start",
+   "context": "Paraclitus"
+  },
+  {
+   "section": "30",
+   "book": 8,
+   "k": 2,
+   "spelling": "Alpha",
+   "how": "paragraph start",
+   "context": "Alpha"
+  },
+  {
+   "section": "30",
+   "book": 9,
+   "k": 0,
+   "spelling": "Damadays",
+   "how": "paragraph start",
+   "context": "Damadays"
+  },
+  {
+   "section": "30",
+   "book": 9,
+   "k": 1,
+   "spelling": "Trinus",
+   "how": "paragraph start",
+   "context": "Trinus"
+  },
+  {
+   "section": "30",
+   "book": 9,
+   "k": 2,
+   "spelling": "Sacerdos",
+   "how": "paragraph start",
+   "context": "Sacerdos"
+  },
+  {
+   "section": "30",
+   "book": 10,
+   "k": 0,
+   "spelling": "Iasym",
+   "how": "paragraph start",
+   "context": "Iasym"
+  },
+  {
+   "section": "30",
+   "book": 10,
+   "k": 1,
+   "spelling": "Graton",
+   "how": "paragraph start",
+   "context": "Graton"
+  },
+  {
+   "section": "30",
+   "book": 10,
+   "k": 2,
+   "spelling": "Sother",
+   "how": "paragraph start",
+   "context": "Sother"
+  },
+  {
+   "section": "30",
+   "book": 11,
+   "k": 0,
+   "spelling": "Vitulus",
+   "how": "paragraph start",
+   "context": "Vitulus"
+  },
+  {
+   "section": "30",
+   "book": 11,
+   "k": 1,
+   "spelling": "Saday",
+   "how": "paragraph start",
+   "context": "Saday"
+  },
+  {
+   "section": "30",
+   "book": 11,
+   "k": 2,
+   "spelling": "Occynomos",
+   "how": "paragraph start",
+   "context": "Occynomos"
+  },
+  {
+   "section": "30",
+   "book": 12,
+   "k": 1,
+   "spelling": "Misericors",
+   "how": "paragraph start",
+   "context": "Misericors"
+  },
+  {
+   "section": "30",
+   "book": 12,
+   "k": 2,
+   "spelling": "Agatai",
+   "how": "paragraph start",
+   "context": "Agatai"
+  },
+  {
+   "section": "30",
+   "book": 13,
+   "k": 0,
+   "spelling": "Mediator",
+   "how": "paragraph start",
+   "context": "Mediator"
+  },
+  {
+   "section": "30",
+   "book": 13,
+   "k": 1,
+   "spelling": "Serpens",
+   "how": "paragraph start",
+   "context": "Serpens"
+  },
+  {
+   "section": "30",
+   "book": 13,
+   "k": 2,
+   "spelling": "Soll",
+   "how": "paragraph start",
+   "context": "Soll"
+  },
+  {
+   "section": "30",
+   "book": 14,
+   "k": 0,
+   "spelling": "Grisma",
+   "how": "paragraph start",
+   "context": "Grisma"
+  },
+  {
+   "section": "30",
+   "book": 14,
+   "k": 1,
+   "spelling": "Iathecon",
+   "how": "paragraph start",
+   "context": "Iathecon"
+  },
+  {
+   "section": "30",
+   "book": 14,
+   "k": 2,
+   "spelling": "Ionecob",
+   "how": "paragraph start",
+   "context": "Ionecob"
+  },
+  {
+   "section": "30",
+   "book": 15,
+   "k": 0,
+   "spelling": "Omnipotens",
+   "how": "paragraph start",
+   "context": "Omnipotens"
+  },
+  {
+   "section": "30",
+   "book": 15,
+   "k": 2,
+   "spelling": "Vau",
+   "how": "paragraph start",
+   "context": "Vau"
+  },
+  {
+   "section": "30",
+   "book": 16,
+   "k": 0,
+   "spelling": "Sapientia",
+   "how": "paragraph start",
+   "context": "Sapientia"
+  },
+  {
+   "section": "30",
+   "book": 16,
+   "k": 1,
+   "spelling": "Divinitas",
+   "how": "paragraph start",
+   "context": "Divinitas"
+  },
+  {
+   "section": "30",
+   "book": 16,
+   "k": 2,
+   "spelling": "Borac",
+   "how": "paragraph start",
+   "context": "Borac"
+  },
+  {
+   "section": "30",
+   "book": 17,
+   "k": 0,
+   "spelling": "Lapis",
+   "how": "paragraph start",
+   "context": "Lapis"
+  },
+  {
+   "section": "30",
+   "book": 17,
+   "k": 1,
+   "spelling": "Ysus",
+   "how": "paragraph start",
+   "context": "Ysus"
+  },
+  {
+   "section": "30",
+   "book": 17,
+   "k": 2,
+   "spelling": "Damad",
+   "how": "paragraph start",
+   "context": "Damad"
+  },
+  {
+   "section": "30",
+   "book": 18,
+   "k": 0,
+   "spelling": "Solus",
+   "how": "paragraph start",
+   "context": "Solus"
+  },
+  {
+   "section": "30",
+   "book": 18,
+   "k": 1,
+   "spelling": "Grisdecon",
+   "how": "paragraph start",
+   "context": "Grisdecon"
+  },
+  {
+   "section": "30",
+   "book": 18,
+   "k": 2,
+   "spelling": "Agathabay",
+   "how": "paragraph start",
+   "context": "Agathabay"
+  },
+  {
+   "section": "30",
+   "book": 18,
+   "k": 2,
+   "spelling": "Agatabay",
+   "how": "paragraph start",
+   "context": "Agathabay"
+  },
+  {
+   "section": "30",
+   "book": 19,
+   "k": 0,
+   "spelling": "Dorocado",
+   "how": "paragraph start",
+   "context": "Dorocado"
+  },
+  {
+   "section": "30",
+   "book": 19,
+   "k": 1,
+   "spelling": "Degris",
+   "how": "paragraph start",
+   "context": "Degris"
+  },
+  {
+   "section": "30",
+   "book": 19,
+   "k": 2,
+   "spelling": "Griszede",
+   "how": "paragraph start",
+   "context": "Griszede"
+  },
+  {
+   "section": "30",
+   "book": 20,
+   "k": 0,
+   "spelling": "Teron",
+   "how": "paragraph start",
+   "context": "Teron"
+  },
+  {
+   "section": "30",
+   "book": 20,
+   "k": 1,
+   "spelling": "Mirdecon",
+   "how": "paragraph start",
+   "context": "Mirdecon"
+  },
+  {
+   "section": "26",
+   "book": 4,
+   "k": 0,
+   "spelling": "Messyas",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 4,
+   "k": 1,
+   "spelling": "Panton",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 4,
+   "k": 2,
+   "spelling": "Os",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 4,
+   "k": 0,
+   "spelling": "Messyas",
+   "how": "after nuncupari",
+   "context": "nuncupari Messyas"
+  },
+  {
+   "section": "26",
+   "book": 4,
+   "k": 2,
+   "spelling": "Os",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Os"
+  },
+  {
+   "section": "26",
+   "book": 5,
+   "k": 0,
+   "spelling": "Veritas",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 5,
+   "k": 1,
+   "spelling": "Theon",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 5,
+   "k": 2,
+   "spelling": "Spiritus",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 5,
+   "k": 0,
+   "spelling": "Veritas",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Veritas"
+  },
+  {
+   "section": "26",
+   "book": 5,
+   "k": 1,
+   "spelling": "Theon",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Theon"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "k": 0,
+   "spelling": "Sother",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "k": 1,
+   "spelling": "Sanctus",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "k": 2,
+   "spelling": "Unus",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "k": 1,
+   "spelling": "Sanctus",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Sanctus"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "k": 1,
+   "spelling": "Sanctus",
+   "how": "after nuncupari",
+   "context": "nuncupari Sanctus"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "k": 2,
+   "spelling": "Unus",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Unus"
+  },
+  {
+   "section": "26",
+   "book": 7,
+   "k": 0,
+   "spelling": "Radix",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 7,
+   "k": 1,
+   "spelling": "Virtus",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 7,
+   "k": 2,
+   "spelling": "Leo",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 7,
+   "k": 0,
+   "spelling": "Radix",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Radix"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 0,
+   "spelling": "Agios",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 1,
+   "spelling": "Paraclitus",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 2,
+   "spelling": "Alpha",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 0,
+   "spelling": "Agios",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Agios"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 1,
+   "spelling": "Paraclitus",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Paraclitus"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 1,
+   "spelling": "Paraclitus",
+   "how": "after nuncupari",
+   "context": "nuncupari Paraclitus"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 2,
+   "spelling": "Alpha",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Alpha"
+  },
+  {
+   "section": "26",
+   "book": 8,
+   "k": 2,
+   "spelling": "Alpha",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Alpha"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 0,
+   "spelling": "Damadais",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 1,
+   "spelling": "Trinus",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 2,
+   "spelling": "Sacerdos",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 0,
+   "spelling": "Damaidas",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Damaidas"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 1,
+   "spelling": "Trinus",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Trinus"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 1,
+   "spelling": "Trinus",
+   "how": "after potest dici",
+   "context": "potest dici Trinus"
+  },
+  {
+   "section": "26",
+   "book": 9,
+   "k": 2,
+   "spelling": "Sacerdos",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Sacerdos"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 0,
+   "spelling": "Yasym",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 1,
+   "spelling": "Graton",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 2,
+   "spelling": "Sother",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 0,
+   "spelling": "Iasim",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Iasim"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 0,
+   "spelling": "Iasym",
+   "how": "after potest dici",
+   "context": "potest dici Iasym"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 1,
+   "spelling": "Graton",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Graton"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 1,
+   "spelling": "Graton",
+   "how": "after nuncupari",
+   "context": "nuncupari Graton"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 2,
+   "spelling": "Sother",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Sother"
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "k": 2,
+   "spelling": "Sother",
+   "how": "after nuncupari",
+   "context": "nuncupari Sother"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 0,
+   "spelling": "Grizon",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 1,
+   "spelling": "Misericors",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 2,
+   "spelling": "Agatay",
+   "how": "book heading triad",
+   "context": "heading"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 0,
+   "spelling": "Grizon",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Grizon"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 0,
+   "spelling": "Grizon",
+   "how": "after potest dici",
+   "context": "potest dici Grizon"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 1,
+   "spelling": "Misericors",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Misericors"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 1,
+   "spelling": "Misericors",
+   "how": "after potest dici",
+   "context": "potest dici Misericors"
+  },
+  {
+   "section": "26",
+   "book": 12,
+   "k": 2,
+   "spelling": "Agatay",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Agatay"
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "k": 0,
+   "spelling": "Mediator",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Mediator"
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "k": 0,
+   "spelling": "Mediator",
+   "how": "after potest dici",
+   "context": "potest dici Mediator"
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "k": 1,
+   "spelling": "Serpens",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Serpens"
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "k": 2,
+   "spelling": "Sol",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Sol"
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "k": 2,
+   "spelling": "Sol",
+   "how": "after nuncupari",
+   "context": "nuncupari Sol"
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "k": 0,
+   "spelling": "Grisma",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Grisma"
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "k": 0,
+   "spelling": "Grisma",
+   "how": "after nuncupari",
+   "context": "nuncupari Grisma"
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "k": 1,
+   "spelling": "Iotecon",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Iotecon"
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "k": 1,
+   "spelling": "Iotecon",
+   "how": "after dici potest",
+   "context": "dici potest Iotecon"
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "k": 2,
+   "spelling": "Ionocob",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Ionocob"
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "k": 2,
+   "spelling": "Ionocob",
+   "how": "after potest dici",
+   "context": "potest dici Ionocob"
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "k": 0,
+   "spelling": "Omnipotens",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Omnipotens"
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "k": 0,
+   "spelling": "Omnipotens",
+   "how": "after potest dici",
+   "context": "potest dici Omnipotens"
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "k": 1,
+   "spelling": "Grizon",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Grizon"
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "k": 1,
+   "spelling": "Grizan",
+   "how": "after potest dici",
+   "context": "potest dici Grizan"
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "k": 2,
+   "spelling": "Vau",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Vau"
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "k": 2,
+   "spelling": "Vau",
+   "how": "after potest dici",
+   "context": "potest dici Vau"
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "k": 0,
+   "spelling": "Sapientia",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Sapientia"
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "k": 0,
+   "spelling": "Sapientia",
+   "how": "after potest dici",
+   "context": "potest dici Sapientia"
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "k": 1,
+   "spelling": "Divinitas",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Divinitas"
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "k": 2,
+   "spelling": "Borac",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Borac"
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "k": 2,
+   "spelling": "Borac",
+   "how": "after potest dici",
+   "context": "potest dici Borac"
+  },
+  {
+   "section": "26",
+   "book": 17,
+   "k": 0,
+   "spelling": "Lapis",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Lapis"
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "k": 0,
+   "spelling": "Solus",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Solus"
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "k": 0,
+   "spelling": "Solus",
+   "how": "after potest dici",
+   "context": "potest dici Solus"
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "k": 1,
+   "spelling": "Grisdecon",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Grisdecon"
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "k": 1,
+   "spelling": "Grisdecon",
+   "how": "after potest dici",
+   "context": "potest dici Grisdecon"
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "k": 2,
+   "spelling": "Agatabay",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Agatabay"
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "k": 2,
+   "spelling": "Agatabay",
+   "how": "after potest dici",
+   "context": "potest dici Agatabay"
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "k": 0,
+   "spelling": "Bonicado",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Bonicado"
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "k": 0,
+   "spelling": "Bonicado",
+   "how": "after potest dici",
+   "context": "potest dici Bonicado"
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "k": 1,
+   "spelling": "Degris",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Degris"
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "k": 1,
+   "spelling": "Degris",
+   "how": "after potest dici",
+   "context": "potest dici Degris"
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "k": 2,
+   "spelling": "Griszode",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Griszode"
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "k": 2,
+   "spelling": "Griszode",
+   "how": "after potest dici",
+   "context": "potest dici Griszode"
+  },
+  {
+   "section": "26",
+   "book": 20,
+   "k": 0,
+   "spelling": "Theron",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Theron"
+  },
+  {
+   "section": "26",
+   "book": 20,
+   "k": 0,
+   "spelling": "Theron",
+   "how": "after potest dici",
+   "context": "potest dici Theron"
+  },
+  {
+   "section": "26",
+   "book": 20,
+   "k": 1,
+   "spelling": "Muelecon",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Muelecon"
+  },
+  {
+   "section": "26",
+   "book": 20,
+   "k": 1,
+   "spelling": "Muelecon",
+   "how": "after potest dici",
+   "context": "potest dici Muelecon"
+  },
+  {
+   "section": "26",
+   "book": 20,
+   "k": 2,
+   "spelling": "Adelf",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Adelf"
+  },
+  {
+   "section": "26",
+   "book": 20,
+   "k": 2,
+   "spelling": "Adelf",
+   "how": "after potest dici",
+   "context": "potest dici Adelf"
+  },
+  {
+   "section": "26",
+   "book": 21,
+   "k": 0,
+   "spelling": "Niscar",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Niscar"
+  },
+  {
+   "section": "26",
+   "book": 21,
+   "k": 0,
+   "spelling": "Niscar",
+   "how": "after potest dici",
+   "context": "potest dici Niscar"
+  },
+  {
+   "section": "26",
+   "book": 21,
+   "k": 1,
+   "spelling": "Butyl",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Butyl"
+  },
+  {
+   "section": "26",
+   "book": 21,
+   "k": 1,
+   "spelling": "Butyl",
+   "how": "after potest dici",
+   "context": "potest dici Butyl"
+  },
+  {
+   "section": "26",
+   "book": 21,
+   "k": 2,
+   "spelling": "Buneclig",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Buneclig"
+  },
+  {
+   "section": "26",
+   "book": 21,
+   "k": 2,
+   "spelling": "Buneclig",
+   "how": "after potest dici",
+   "context": "potest dici Buneclig"
+  },
+  {
+   "section": "26",
+   "book": 22,
+   "k": 0,
+   "spelling": "Burny",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Burny"
+  },
+  {
+   "section": "26",
+   "book": 22,
+   "k": 0,
+   "spelling": "Burni",
+   "how": "after potest dici",
+   "context": "potest dici Burni"
+  },
+  {
+   "section": "26",
+   "book": 22,
+   "k": 1,
+   "spelling": "Boarly",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Boarly"
+  },
+  {
+   "section": "26",
+   "book": 22,
+   "k": 1,
+   "spelling": "Soarly",
+   "how": "after potest dici",
+   "context": "potest dici Soarly"
+  },
+  {
+   "section": "26",
+   "book": 22,
+   "k": 2,
+   "spelling": "Burburclich",
+   "how": "after nuncupari",
+   "context": "nuncupari Burburclich"
+  },
+  {
+   "section": "26",
+   "book": 23,
+   "k": 1,
+   "spelling": "Tornal",
+   "how": "after hoc nomen",
+   "context": "hoc nomen Tornal"
+  },
+  {
+   "section": "26",
+   "book": 23,
+   "k": 1,
+   "spelling": "Tornal",
+   "how": "after potest dici",
+   "context": "potest dici Tornal"
+  }
+ ],
+ "unassigned": [
+  {
+   "section": "30",
+   "book_now": 4,
+   "word": "Nomen",
+   "why": "no near name"
+  },
+  {
+   "section": "30",
+   "book_now": 11,
+   "word": "Grison",
+   "why": "no near name"
+  },
+  {
+   "section": "30",
+   "book_now": 15,
+   "word": "Griszon",
+   "why": "no near name"
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "word": "Sother",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 6,
+   "word": "Sother",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "word": "Natam",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "word": "Messias",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "word": "Saday",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 10,
+   "word": "Occinomos",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Damays",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    17,
+    2,
+    2
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Damays",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    17,
+    2,
+    2
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Sacerdos",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    9,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Iasym",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    0,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Iasym",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    0,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Graton",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Ratam",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 13,
+   "word": "Sother",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Vitulus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Vitulus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Saday",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Occinomos",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Grizon",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Misericors",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    12,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 14,
+   "word": "Agatay",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    12,
+    2,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Yaya",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Angelo",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Angelo",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "On",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    1,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Messias",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Messias",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Messias",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Panton",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 15,
+   "word": "Veritas",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Agios",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    8,
+    0,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Agios",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    8,
+    0,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Paraclitus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    8,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Alpha",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    8,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Damad",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    17,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Redemptor",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Redemptor",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Ely",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Ysiis",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    17,
+    1,
+    2
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Theos",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    5,
+    1,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 16,
+   "word": "Spiritus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    5,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 17,
+   "word": "Eloy",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    2,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 17,
+   "word": "Radix",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    7,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 17,
+   "word": "Virtus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    7,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 17,
+   "word": "Leo",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    7,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Iustorum",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Iustorum",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Genitor",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Bon",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Sother",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Sother",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    10,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Sanctus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    6,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 18,
+   "word": "Unus",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    6,
+    2,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "word": "Iustorum",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "word": "Iustorum",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "word": "Genitor",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "word": "Messyas",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    0,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 19,
+   "word": "Messyas",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    4,
+    0,
+    1
+   ]
+  },
+  {
+   "section": "26",
+   "book": 23,
+   "word": "Iaech",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 23,
+   "word": "Iaech",
+   "why": "no near name in book",
+   "nearest_any_book": null
+  },
+  {
+   "section": "26",
+   "book": 23,
+   "word": "Lanay",
+   "why": "no near name in book",
+   "nearest_any_book": [
+    11,
+    1,
+    2
+   ]
+  }
+ ],
+ "names": {
+  "1.1": {
+   "label": "Aries",
+   "section28": [
+    "agla"
+   ],
+   "already_admitted": [],
+   "found": {
+    "agla": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "1.2": {
+   "label": "Aries",
+   "section28": [
+    "primogenitus"
+   ],
+   "already_admitted": [],
+   "found": {
+    "primogentius": 1,
+    "primogenitus": 2
+   },
+   "new_primary": [
+    "primogentius"
+   ],
+   "new_secondary": []
+  },
+  "1.3": {
+   "label": "Aries",
+   "section28": [
+    "on"
+   ],
+   "already_admitted": [],
+   "found": {
+    "on": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "2.1": {
+   "label": "Taurus",
+   "section28": [
+    "redemptor"
+   ],
+   "already_admitted": [],
+   "found": {
+    "redemptor": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "2.2": {
+   "label": "Taurus",
+   "section28": [
+    "elii",
+    "ely"
+   ],
+   "already_admitted": [],
+   "found": {
+    "elii": 1,
+    "ely": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "2.3": {
+   "label": "Taurus",
+   "section28": [
+    "eloii",
+    "eloy"
+   ],
+   "already_admitted": [
+    "elii"
+   ],
+   "found": {
+    "eloy": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "3.1": {
+   "label": "Gemini",
+   "section28": [
+    "iustorum"
+   ],
+   "already_admitted": [
+    "istorum"
+   ],
+   "found": {
+    "iustorum": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "3.2": {
+   "label": "Gemini",
+   "section28": [
+    "genitor"
+   ],
+   "already_admitted": [],
+   "found": {
+    "genitor": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "3.3": {
+   "label": "Gemini",
+   "section28": [
+    "bon"
+   ],
+   "already_admitted": [],
+   "found": {
+    "bon": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "4.1": {
+   "label": "Cancer",
+   "section28": [
+    "messias"
+   ],
+   "already_admitted": [
+    "messyas"
+   ],
+   "found": {
+    "messias": 3,
+    "messyas": 2
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "4.2": {
+   "label": "Cancer",
+   "section28": [
+    "panton"
+   ],
+   "already_admitted": [],
+   "found": {
+    "panton": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "4.3": {
+   "label": "Cancer",
+   "section28": [
+    "hos"
+   ],
+   "already_admitted": [],
+   "found": {
+    "hos": 3,
+    "os": 2
+   },
+   "new_primary": [
+    "os"
+   ],
+   "new_secondary": [
+    "os"
+   ]
+  },
+  "5.1": {
+   "label": "Leo",
+   "section28": [
+    "ueritas"
+   ],
+   "already_admitted": [],
+   "found": {
+    "ueritas": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "5.2": {
+   "label": "Leo",
+   "section28": [
+    "theon"
+   ],
+   "already_admitted": [
+    "then",
+    "theron"
+   ],
+   "found": {
+    "theon": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "5.3": {
+   "label": "Leo",
+   "section28": [
+    "spiritus"
+   ],
+   "already_admitted": [
+    "spirits"
+   ],
+   "found": {
+    "spiritus": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "6.1": {
+   "label": "Virgo",
+   "section28": [
+    "sothey"
+   ],
+   "already_admitted": [],
+   "found": {
+    "sothey": 3,
+    "sother": 1
+   },
+   "new_primary": [
+    "sother"
+   ],
+   "new_secondary": []
+  },
+  "6.2": {
+   "label": "Virgo",
+   "section28": [
+    "sanctus"
+   ],
+   "already_admitted": [
+    "sanctis",
+    "sanctos"
+   ],
+   "found": {
+    "sanctus": 6
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "6.3": {
+   "label": "Virgo",
+   "section28": [
+    "unus"
+   ],
+   "already_admitted": [],
+   "found": {
+    "unus": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "7.1": {
+   "label": "Libra",
+   "section28": [
+    "radix"
+   ],
+   "already_admitted": [],
+   "found": {
+    "radix": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "7.2": {
+   "label": "Libra",
+   "section28": [
+    "uirtus"
+   ],
+   "already_admitted": [],
+   "found": {
+    "uirtus": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "7.3": {
+   "label": "Libra",
+   "section28": [
+    "leo"
+   ],
+   "already_admitted": [],
+   "found": {
+    "leo": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "8.1": {
+   "label": "Scorpio",
+   "section28": [
+    "agiios",
+    "agyos"
+   ],
+   "already_admitted": [
+    "agios"
+   ],
+   "found": {
+    "agyos": 3,
+    "agios": 2
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "8.2": {
+   "label": "Scorpio",
+   "section28": [
+    "paraclitus"
+   ],
+   "already_admitted": [],
+   "found": {
+    "paraclitus": 6
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "8.3": {
+   "label": "Scorpio",
+   "section28": [
+    "alpha"
+   ],
+   "already_admitted": [],
+   "found": {
+    "alpha": 6
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "9.1": {
+   "label": "Sagittarius",
+   "section28": [
+    "damadais"
+   ],
+   "already_admitted": [],
+   "found": {
+    "damadais": 3,
+    "damadays": 1,
+    "damaidas": 1
+   },
+   "new_primary": [
+    "damadays",
+    "damaidas"
+   ],
+   "new_secondary": []
+  },
+  "9.2": {
+   "label": "Sagittarius",
+   "section28": [
+    "trinus"
+   ],
+   "already_admitted": [
+    "tribus"
+   ],
+   "found": {
+    "trinus": 6
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "9.3": {
+   "label": "Sagittarius",
+   "section28": [
+    "sacerdos"
+   ],
+   "already_admitted": [],
+   "found": {
+    "sacerdos": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "10.1": {
+   "label": "Capricornus",
+   "section28": [
+    "iasim"
+   ],
+   "already_admitted": [
+    "iasym"
+   ],
+   "found": {
+    "iasim": 2,
+    "iasym": 2,
+    "yasym": 1
+   },
+   "new_primary": [
+    "yasym"
+   ],
+   "new_secondary": []
+  },
+  "10.2": {
+   "label": "Capricornus",
+   "section28": [
+    "graton"
+   ],
+   "already_admitted": [],
+   "found": {
+    "graton": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "10.3": {
+   "label": "Capricornus",
+   "section28": [
+    "sother"
+   ],
+   "already_admitted": [],
+   "found": {
+    "sother": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "11.1": {
+   "label": "Aquarius",
+   "section28": [
+    "uitulus"
+   ],
+   "already_admitted": [],
+   "found": {
+    "uitulus": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "11.2": {
+   "label": "Aquarius",
+   "section28": [
+    "sadaii",
+    "saday"
+   ],
+   "already_admitted": [],
+   "found": {
+    "saday": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "11.3": {
+   "label": "Aquarius",
+   "section28": [
+    "occinomos"
+   ],
+   "already_admitted": [],
+   "found": {
+    "hoccinosnos": 1,
+    "hoccinomas": 1,
+    "occinomos": 1,
+    "occynomos": 1
+   },
+   "new_primary": [
+    "hoccinomas",
+    "hoccinosnos",
+    "occynomos"
+   ],
+   "new_secondary": []
+  },
+  "12.1": {
+   "label": "Pisces",
+   "section28": [
+    "griszon"
+   ],
+   "already_admitted": [
+    "grison",
+    "grizon"
+   ],
+   "found": {
+    "griszon": 2,
+    "grizon": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "12.2": {
+   "label": "Pisces",
+   "section28": [
+    "misericors"
+   ],
+   "already_admitted": [],
+   "found": {
+    "misericors": 6
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "12.3": {
+   "label": "Pisces",
+   "section28": [
+    "agathay"
+   ],
+   "already_admitted": [
+    "agatay"
+   ],
+   "found": {
+    "agatay": 4,
+    "agatai": 1
+   },
+   "new_primary": [
+    "agatai"
+   ],
+   "new_secondary": []
+  },
+  "13.1": {
+   "label": "Saturn",
+   "section28": [
+    "mediator"
+   ],
+   "already_admitted": [],
+   "found": {
+    "mediator": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "13.2": {
+   "label": "Saturn",
+   "section28": [
+    "serpens"
+   ],
+   "already_admitted": [],
+   "found": {
+    "serpens": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "13.3": {
+   "label": "Saturn",
+   "section28": [
+    "soll"
+   ],
+   "already_admitted": [],
+   "found": {
+    "soll": 3,
+    "sol": 2
+   },
+   "new_primary": [
+    "sol"
+   ],
+   "new_secondary": [
+    "sol"
+   ]
+  },
+  "14.1": {
+   "label": "Jupiter",
+   "section28": [
+    "grisma"
+   ],
+   "already_admitted": [],
+   "found": {
+    "grisma": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "14.2": {
+   "label": "Jupiter",
+   "section28": [
+    "icthecon",
+    "iothecon"
+   ],
+   "already_admitted": [
+    "iotecon",
+    "iothecon"
+   ],
+   "found": {
+    "iothecon": 2,
+    "iathecon": 1,
+    "iotecon": 2
+   },
+   "new_primary": [
+    "iathecon"
+   ],
+   "new_secondary": []
+  },
+  "14.3": {
+   "label": "Jupiter",
+   "section28": [
+    "ionecob"
+   ],
+   "already_admitted": [
+    "ionocob"
+   ],
+   "found": {
+    "ionecob": 3,
+    "ionocob": 2
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "15.1": {
+   "label": "Mars",
+   "section28": [
+    "omnipotens"
+   ],
+   "already_admitted": [],
+   "found": {
+    "omnipotens": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "15.2": {
+   "label": "Mars",
+   "section28": [
+    "grison"
+   ],
+   "already_admitted": [
+    "griszon",
+    "grizon"
+   ],
+   "found": {
+    "grison": 2,
+    "grizon": 1,
+    "grizan": 1
+   },
+   "new_primary": [
+    "grizan"
+   ],
+   "new_secondary": []
+  },
+  "15.3": {
+   "label": "Mars",
+   "section28": [
+    "uau"
+   ],
+   "already_admitted": [],
+   "found": {
+    "uau": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "16.1": {
+   "label": "Sol",
+   "section28": [
+    "sapientia"
+   ],
+   "already_admitted": [],
+   "found": {
+    "sapientia": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "16.2": {
+   "label": "Sol",
+   "section28": [
+    "diuinitas"
+   ],
+   "already_admitted": [],
+   "found": {
+    "diuinitas": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "16.3": {
+   "label": "Sol",
+   "section28": [
+    "borac"
+   ],
+   "already_admitted": [],
+   "found": {
+    "borac": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "17.1": {
+   "label": "Venus",
+   "section28": [
+    "lapis"
+   ],
+   "already_admitted": [],
+   "found": {
+    "lapis": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "17.2": {
+   "label": "Venus",
+   "section28": [
+    "ysus"
+   ],
+   "already_admitted": [],
+   "found": {
+    "ysus": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "17.3": {
+   "label": "Venus",
+   "section28": [
+    "damad"
+   ],
+   "already_admitted": [],
+   "found": {
+    "damad": 3
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "18.1": {
+   "label": "Mercury",
+   "section28": [
+    "solus"
+   ],
+   "already_admitted": [
+    "salus",
+    "solis"
+   ],
+   "found": {
+    "solus": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "18.2": {
+   "label": "Mercury",
+   "section28": [
+    "griisdecon"
+   ],
+   "already_admitted": [
+    "grisdecon"
+   ],
+   "found": {
+    "grisdecon": 5
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "18.3": {
+   "label": "Mercury",
+   "section28": [
+    "agatabaii",
+    "agatabay"
+   ],
+   "already_admitted": [],
+   "found": {
+    "agatabay": 5,
+    "agathabay": 1
+   },
+   "new_primary": [
+    "agathabay"
+   ],
+   "new_secondary": []
+  },
+  "19.1": {
+   "label": "Moon",
+   "section28": [
+    "borocado"
+   ],
+   "already_admitted": [],
+   "found": {
+    "borocado": 1,
+    "dorocado": 1,
+    "bonicado": 2
+   },
+   "new_primary": [
+    "bonicado",
+    "dorocado"
+   ],
+   "new_secondary": [
+    "bonicado"
+   ]
+  },
+  "19.2": {
+   "label": "Moon",
+   "section28": [
+    "degris"
+   ],
+   "already_admitted": [],
+   "found": {
+    "degris": 4
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "19.3": {
+   "label": "Moon",
+   "section28": [
+    "gruszede",
+    "gruszeide"
+   ],
+   "already_admitted": [
+    "gruszede"
+   ],
+   "found": {
+    "gruszede": 1,
+    "griszede": 1,
+    "griszode": 2
+   },
+   "new_primary": [
+    "griszede",
+    "griszode"
+   ],
+   "new_secondary": [
+    "griszode"
+   ]
+  },
+  "20.1": {
+   "label": "Fire",
+   "section28": [
+    "teron"
+   ],
+   "already_admitted": [
+    "theron"
+   ],
+   "found": {
+    "teron": 3,
+    "theron": 2
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "20.2": {
+   "label": "Fire",
+   "section28": [
+    "mirdecon"
+   ],
+   "already_admitted": [],
+   "found": {
+    "mirdecon": 3,
+    "muelecon": 2
+   },
+   "new_primary": [
+    "muelecon"
+   ],
+   "new_secondary": [
+    "muelecon"
+   ]
+  },
+  "20.3": {
+   "label": "Fire",
+   "section28": [
+    "aldelf"
+   ],
+   "already_admitted": [
+    "adelf",
+    "aldef"
+   ],
+   "found": {
+    "aldef": 2,
+    "adelf": 2
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "21.1": {
+   "label": "Air",
+   "section28": [
+    "nysoar"
+   ],
+   "already_admitted": [],
+   "found": {
+    "niscar": 2
+   },
+   "new_primary": [
+    "niscar"
+   ],
+   "new_secondary": [
+    "niscar"
+   ]
+  },
+  "21.2": {
+   "label": "Air",
+   "section28": [
+    "buryl"
+   ],
+   "already_admitted": [
+    "butyl"
+   ],
+   "found": {
+    "butyl": 2
+   },
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "21.3": {
+   "label": "Air",
+   "section28": [
+    "bunedigi"
+   ],
+   "already_admitted": [],
+   "found": {
+    "buneclig": 2
+   },
+   "new_primary": [
+    "buneclig"
+   ],
+   "new_secondary": [
+    "buneclig"
+   ]
+  },
+  "22.1": {
+   "label": "Water",
+   "section28": [
+    "burnyl"
+   ],
+   "already_admitted": [],
+   "found": {
+    "burny": 1,
+    "burni": 1
+   },
+   "new_primary": [
+    "burni",
+    "burny"
+   ],
+   "new_secondary": []
+  },
+  "22.2": {
+   "label": "Water",
+   "section28": [
+    "soarlii",
+    "soarly"
+   ],
+   "already_admitted": [],
+   "found": {
+    "boarly": 1,
+    "soarly": 1
+   },
+   "new_primary": [
+    "boarly"
+   ],
+   "new_secondary": []
+  },
+  "22.3": {
+   "label": "Water",
+   "section28": [
+    "burburdich"
+   ],
+   "already_admitted": [],
+   "found": {
+    "burburclich": 1
+   },
+   "new_primary": [
+    "burburclich"
+   ],
+   "new_secondary": []
+  },
+  "23.1": {
+   "label": "Earth",
+   "section28": [
+    "lael"
+   ],
+   "already_admitted": [],
+   "found": {},
+   "new_primary": [],
+   "new_secondary": []
+  },
+  "23.2": {
+   "label": "Earth",
+   "section28": [
+    "tornas"
+   ],
+   "already_admitted": [],
+   "found": {
+    "tornal": 2
+   },
+   "new_primary": [
+    "tornal"
+   ],
+   "new_secondary": [
+    "tornal"
+   ]
+  },
+  "23.3": {
+   "label": "Earth",
+   "section28": [
+    "lauaiuali"
+   ],
+   "already_admitted": [],
+   "found": {},
+   "new_primary": [],
+   "new_secondary": []
+  }
+ }
+}
