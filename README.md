@@ -17,16 +17,25 @@ names. This study shows that ISIAPO comes from the Bodley numbers counted on "Me
 ("Messias" with one s), that the two surviving copies of those numbers differ by exactly that
 one-s count, and that the other three follow from one ordinary slip each.
 
+**New in v1.3 (21 October 2026).** Onur Teker, whose preprint this study builds on, read v1.2
+and replied with four points, all taken up here and credited to him. The edition never spells
+Messias with one s (Messias 10 times, Messyas 7, Mesias never), so the ISIAPO repair is a
+counting slip, not a spelling. The 23 name triads also stand in Sections 26.2–26.8, 29 and 30;
+a pre-registered check that admits every spelling of the names found there leaves the four
+repairs, their chance figures and the "no wrong code word" result unchanged. His observation
+that book N of Sections 26.2–26.8 "shows" the N-th letter of the alphabet is reproduced. And a
+caveat on what the vowel test can show is added (section 7).
+
 This is a study of how a text was made. It is not a decipherment: the tables were broken by
 Jim Reeds in 1998. Where the evidence is short of proof, this README says "the evidence weighs
 toward".
 
-October 2026. CPU only, Python standard library only; the whole analysis reruns in about a
-minute and a half.
+October 2026 (v1.3: 21 October). CPU only, Python standard library only; the whole analysis
+reruns in under two minutes.
 
 **Archived on Zenodo** with its paper, code, data and results: [doi:10.5281/zenodo.23470965](https://doi.org/10.5281/zenodo.23470965) (this DOI always opens the latest version; see How to cite at the end).
 
-**The paper:** [`paper/soyga-seed-words.pdf`](paper/soyga-seed-words.pdf) (working paper, 5 pages:
+**The paper:** [`paper/soyga-seed-words.pdf`](paper/soyga-seed-words.pdf) (working paper, 7 pages:
 abstract, method, results, discussion and references; built from `paper/soyga-seed-words.typ`
 by `paper/build.sh`). The README below covers the same ground in more detail.
 
@@ -38,6 +47,8 @@ by `paper/build.sh`). The README below covers the same ground in more detail.
 | Where do the 36 code words come from? | 12 are the reverses of tables 1–12, one is MOYSES, and 23 are spelled out by position numbers in the book's three divine names | The 23 spellings: 19 of 23 exact as printed (as Teker found); random pairings of names and paragraphs reach at most 69 of 138 letters, against 131 |
 | Can the last four (ISIAPO, ARICAA, REUELA, UISEUA) be explained? | Yes. Each is one ordinary copying or counting slip away, under one error model written down before scoring | Chance that one slip turns the same names into a random word: 0.00044, 0.00005, 0.00002 and 0.00004 |
 | Does the error model let in wrong answers? | No. No paragraph produces any of the other 22 code words, even with two slips | 0 of 22 × 23 cross-pairings |
+| Does the book ever spell Messias with one s? (v1.3) | No: Messias 10 times, Messyas 7, Mesias never, as Teker counted. The ISIAPO repair is a counting slip, not a spelling | Counted on the Latin pages of the edition |
+| Do the answers change if every spelling the book gives the 69 names in Sections 26.2–26.8, 29 and 30 is admitted? (v1.3) | No. The four repairs keep one slip each and the same chance figures; still no wrong code word | 26 more spellings of 20 names; pre-registered; 0 of 22 × 23 cross-pairings at 0, 1 or 2 slips |
 | Are those kinds of slip real? | Yes. The copies of the numbers disagree with each other by exactly these two kinds of slip, far more often than random lists | One-numeral slips 28 % against 8 %; counting slips 17 % against 0.2 % |
 | Is there a rule that produces the positions (or the words) from the names? | None found. The words look chosen: vowel-rich, and drawing on all three names | Vowels 82 of 138 against 61.5 expected (p ≈ 0.0004); five rule families fail |
 
@@ -81,6 +92,7 @@ reads them locally.
 | orey/book-of-soyga (GitHub), generated tables | an independent implementation to compare against |
 | Louv (2026) reproduction package, Zenodo 10.5281/zenodo.20696278 | a second independent implementation |
 | Teker (2026) preprint, supplement and code, Zenodo 10.5281/zenodo.23431833 | comparison only; the pipeline does not read them |
+| Teker (2026) v1.7 supplement and code, Zenodo 10.5281/zenodo.23524253 | (v1.3) comparison and credit; the pipeline does not read them |
 
 Our own data, written by hand from Kupin's edition: `data/section28.json`, the position numbers
 and names of the 23 paragraphs, with every printed copy (Sloane main text, Kupin's translation
@@ -102,6 +114,9 @@ All random processes use the seed 20261019.
 | `code/witness_diffs.py` | The kinds of slip between the printed copies of the numbers, with no code words used, against random lists |
 | `code/cancer_copies.py` | (v1.2) Cancer: the Sloane and Bodley copies of the numbers read letter by letter on "Messias" and "Mesias", with a chance figure |
 | `code/rules.py` | The tests of question 2 |
+| `code/extra_spellings.py` | (v1.3) The repair search rerun with every spelling of the 69 names found in Sections 26.2–26.8, 29 and 30; pre-registered in `prereg/v1.3-extra-spellings.md` |
+| `code/messias_count.py` | (v1.3) Every spelling of Messias in the edition |
+| `code/book_letters.py` | (v1.3) Teker's observation that book N shows the N-th letter, reproduced |
 
 **The error model**, written into `code/repair.py` before any scoring was run. Each step costs
 one, at most two in all:
@@ -167,6 +182,55 @@ long are scored.
   slip at all).
 - **No paragraph gives a wrong code word.** Under the same model, none of the 23 paragraphs
   produces any of the other 22 code words, even with two slips.
+- **"Mesias" is a counting slip, not a spelling** (v1.3; `results/messias_count.json`). On the
+  Latin pages of the edition Messias stands 10 times and Messyas 7; no one-s form occurs
+  anywhere in it. Teker (2026, v1.7) counted the same. So the one-s reading at Cancer is the
+  composer skipping one s while counting, which is how the error model classes it.
+
+### The other places the names stand (v1.3; `results/extra_spellings.json`)
+
+Teker (2026, v1.7) points out that the same 23 triads, in the same order, also stand in the
+book paragraphs of Sections 26.2–26.8, in the alphabetical litany of Section 29 and in the
+observances of Section 30 (the last two stop after book 20, Fire). The v1.0 model admits a
+spelling only if it is one inner letter from the Section 28 spelling and occurs at least twice
+on the Latin pages. This check admits every spelling that stands at a name's place in those
+sections, and reruns the repair search otherwise unchanged. Its rules and how it would be
+judged were committed before any scoring (`prereg/v1.3-extra-spellings.md`).
+
+- **What was found.** Declared rules place 276 occurrences on 67 of the 69 names (Section 29:
+  116; Section 30: 54; Sections 26.2–26.8: 106). They give 26 spellings of 20 names that v1.0
+  did not admit, 8 of them attested twice or more: for example Bonicado and Dorocado for
+  Borocado, Muelecon for Mirdecon, Niscar for Nysoar, Os for Hos, Agatai for Agathay
+  (`data/extra_spellings.json`). 64 words the rules could not place are listed there, not
+  guessed; 41 of them are another book's name cited in passing, and the rest include book 23's
+  Iaech and Lanay, which Teker reads as its first and third names.
+- **The four repairs: unchanged.** Each still needs one slip, and the chance that one slip
+  produces a random word stays 0.00044 (ISIAPO), 0.00005 (ARICAA), 0.00002 (REUELA) and
+  0.00004 (UISEUA). ARICAA gains one more derivation: the printed numbers on Agatai, the
+  Section 30 spelling.
+- **Still no wrong code word.** 0 of 22 × 23 cross-pairings reach another paragraph's code
+  word at 0, 1 or 2 slips, in all three declared sets (every new spelling; only those attested
+  twice; every new spelling plus Iaech, Lanay and Ysiis placed by hand).
+- **Chance elsewhere.** The largest one-slip chance over the 23 paragraphs stays 0.0027
+  (Taurus). Two-slip chances rise by at most 0.00006 (Moon, 0.00223 to 0.00229), or 0.00012
+  (Earth) with the three hand-placed words.
+- Several of the new spellings (Os for Hos, Sol for Soll, Burny for Burnyl) differ by one letter
+  added or dropped, which the counting-slip step already allows; that is part of why so little
+  moves.
+
+So, judged as pre-registered, the "no wrong code word" result holds under the enlarged
+spellings and the four repairs stay well beyond chance. These figures sit beside the v1.0
+figures; they do not replace them.
+
+### Book N shows the N-th letter (Teker's observation, reproduced; `results/book_letters.json`)
+
+Teker (2026, v1.6 and v1.7) noticed that in the book paragraphs of Sections 26.2–26.8
+("seipsum primo ostendit postea … et est N in nativitate eiusdem … per L idem nomen
+notificatur") the second letter each book shows is that book's place in the 23-letter alphabet.
+Read from Kupin's text with our own pattern: 17 such paragraphs (books 5–23; none for books 11
+and 15), and 13 of the 16 clear ones match. The misses are book 10 (B for k), book 13 (m for n)
+and book 18 (G for s); book 5 reads "per se". This is the count Teker reports. The observation
+is his; we only confirm it.
 
 ### Cancer: the two copies differ by the one-s count (v1.2; `results/cancer_copies.json`)
 
@@ -233,6 +297,9 @@ Using the 23 position lists that give the code words exactly:
   each. Each of the four repairs beats chance by three orders of magnitude or more, the model
   that allows them produces no wrong code word, and the same kinds of slip are seen among the
   printed copies themselves.
+- **The v1.3 spelling check changes none of this**: with every spelling of the names found in
+  Sections 26.2–26.8, 29 and 30, the four repairs and their chance figures stand, and no wrong
+  code word appears.
 - **No rule that predicts the words from the names was found**, here or in Ahmadipour's tests.
   The evidence weighs toward free choice: the author picked a pronounceable six-letter word
   from the letters of all three names and wrote down where each letter sits. The numbers
@@ -257,7 +324,15 @@ This study stands on the work of others:
 - **Onur Teker** (17 October 2026; Zenodo 10.5281/zenodo.23431833, with a pre-registration at
   10.5281/zenodo.23414455) brought in the Bodley margin note and scored every reading with
   controls: 19 of 23, 131 of 138. Teker named the four misses and noticed the Grisdecon and
-  Agatay spellings, after the result and without counting them.
+  Agatay spellings, after the result and without counting them. In reply to v1.2 he counted
+  the spellings of Messias, pointed to the other places the triads stand (Sections 26.2–26.8,
+  29 and 30), to the letter each book shows in 26.2–26.8, and to the limit of the vowel test;
+  all four points are used in v1.3. His v1.7 supplement (21 October 2026; Zenodo
+  10.5281/zenodo.23524253) credits the four repairs to this study. It also reports that the
+  title *Aldaraia* is the name the Sloane list of lunar mansions gives the third mansion,
+  al-thurayyā, the Pleiades (the Bodley list: Aldoran), and that the Sloane chart "numerus
+  correspondens omnibus literis" is the Section 18 values with 15 added to the consonants and
+  the vowels and H unchanged (17 of 22 letters).
 - **Ahmadipour** (github.com/xcodz/decoding-the-book-of-soyga) tested 15 compact families of
   laws for the position numbers on held-out items and found them rejected or weak.
 - **orey/book-of-soyga** and **haxlerose/soyga-tables** (GitHub) published implementations of
@@ -272,6 +347,8 @@ including the previous 60 days):
    chance for each (0.00002 to 0.00044) and no wrong code word produced. The Agatay and
    Grisdecon spellings are Teker's observation and xvi → vi is Louv's; what is new is that one
    declared model admits all four, says how unlikely each is by luck, and admits nothing else.
+   From v1.3: the same holds when every spelling of the names found in Sections 26.2–26.8, 29
+   and 30 is admitted.
 3. **A test of the error model on the printed copies' own disagreements**, with no code words
    used.
 4. **The vowel and three-name tests**, and the failure of five rule families, which together
@@ -280,7 +357,8 @@ including the previous 60 days):
 ## 7. Caveats and open checks
 
 1. **The manuscripts.** Everything here is read from Kupin's edition. The images of Sloane 8
-   ff. 138v–141r and Bodley 908 do not appear to be online (Teker says the same). A reading of
+   ff. 138v–141r and Bodley 908 do not appear to be online (Teker says the same: as far as he
+   knows, neither manuscript is digitised). A reading of
    the four paragraphs in the manuscripts could confirm or overturn the repairs: Messias or
    Mesias at Cancer, xvi or vi at Moon, and the spellings of Agathay and Griisdecon in the
    name lists.
@@ -297,6 +375,18 @@ including the previous 60 days):
 5. **Our transcription.** `data/section28.json` was typed from the edition by hand. Its
    numbers reproduce Teker's independent scores (19 of 23, 131 of 138), which is a check on
    both.
+6. **What the vowel test can show** (Teker's point, 21 October 2026). A word chosen to be
+   pronounceable will be rich in vowels however it was found. So the vowel test separates
+   "chosen" from "random positions" well, but separates "chosen" from "generated by a rule that
+   also favours pronounceable words" much less well. The vowel and three-name tests show that
+   the positions are not random; that no rule lies behind them rests on the failure of the
+   rule families tested, and a rule outside them that favours pronounceable words is not ruled
+   out.
+7. **The v1.3 spelling check depends on how the names were picked out** of Sections 26.2–26.8,
+   29 and 30. The rules were fixed before scoring, but were adjusted while reading the
+   extracted lists (to drop names of other books cited in passing). The 64 words they could not
+   place are listed in `data/extra_spellings.json`; placing the three most plausible by hand
+   changes nothing.
 
 ## 8. How to reproduce
 
@@ -305,7 +395,7 @@ Needs Linux or macOS with `python3` (standard library only), `git`, `curl`, `unz
 
 ```
 scripts/fetch_sources.sh sources/downloads    # about 25 MB; checks SHA-256 sums
-code/run_all.sh sources/downloads             # about a minute and a half on one CPU
+code/run_all.sh sources/downloads             # under two minutes on one CPU
 git status --short results/ data/             # should be empty
 ```
 
@@ -313,7 +403,7 @@ git status --short results/ data/             # should be empty
 against `sources/SHA256SUMS`, the copies the published results were made from (downloaded
 19 October 2026). If a source has changed since, the script warns and the results may differ.
 From these copies the pipeline rebuilds every results file byte for byte (checked from a clean
-fetch on 19 October 2026).
+fetch on 19 October 2026, and again for v1.3 on 21 October 2026).
 
 The two manuscript excerpts are rebuilt into `data/manuscript_excerpts.json`, which git
 ignores, so a rebuild never republishes them by accident.
@@ -325,7 +415,10 @@ ignores, so a rebuild never republishes them by accident.
   (https://creativecommons.org/licenses/by/4.0/). `data/section28.json` is our own
   transcription of the numbers and names of a sixteenth-century text as printed in Kupin's
   edition, with a few words quoted where the edition is unsure; `data/name_variants.json` is
-  counts of spellings, rebuilt by `code/name_variants.py`.
+  counts of spellings, rebuilt by `code/name_variants.py`; `data/extra_spellings.json` (v1.3)
+  lists the spellings of the names picked out of Sections 26.2–26.8, 29 and 30, each with the
+  two or three words of Latin that place it, rebuilt by `code/extra_spellings.py`.
+- **Pre-registration** (`prereg/`): CC BY 4.0.
 
 **Left out, and why:**
 - **Kupin's edition** (PDF and text): copyright; used for research, not redistributed.
@@ -336,8 +429,8 @@ ignores, so a rebuild never republishes them by accident.
   not published. The results keep only the counts and the handful of cells that disagree.
 - **orey's and Louv's generated tables**: fetched for the comparison; only the counts of equal
   cells are published.
-- **Teker's preprint, supplement and code** (CC BY 4.0): they could be shared, but the pipeline
-  does not need them; fetched for comparison.
+- **Teker's preprint, supplements (v1.6, v1.7) and code** (CC BY 4.0): they could be shared,
+  but the pipeline does not need them; fetched for comparison.
 - **Ahmadipour's archive**: all rights reserved; read only, not used by the code.
 - No manuscript images are included.
 
@@ -353,7 +446,8 @@ ignores, so a rebuild never republishes them by accident.
 - Ilir Ivezaj (2026), Zenodo 10.5281/zenodo.20225605.
 - Onur Teker, "How the Book of Soyga Builds Its Tables and Reads Names from Them" (preprint,
   code and data, 17 October 2026), Zenodo 10.5281/zenodo.23431833; pre-registration
-  10.5281/zenodo.23414455.
+  10.5281/zenodo.23414455; supplement to version 1.7, "findings of 19–21 October 2026",
+  Zenodo 10.5281/zenodo.23524253.
 - Ahmadipour, https://github.com/xcodz/decoding-the-book-of-soyga
 - https://github.com/orey/book-of-soyga; https://github.com/haxlerose/soyga-tables
 
