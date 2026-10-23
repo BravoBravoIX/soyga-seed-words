@@ -37,8 +37,8 @@ second spelling at the same place):
 Variants: every extracted spelling of a name that differs from its Section 28 spelling(s) and
 from the spellings name_variants.py already admits becomes one more admitted spelling of that
 name, for that paragraph only (primary set: attested once is enough; secondary set: attested
-at least twice in the places read; third set: the primary set plus three listed words placed
-by hand, see LISTED). The repair search is otherwise exactly repair.py's: same
+at least twice in the places read; third set: the primary set plus the three words placed
+as LISTED says). The repair search is otherwise exactly repair.py's: same
 error model, same costs, same seed and the same 100,000 random words per paragraph.
 
 Usage: extra_spellings.py KUPIN_TXT [--extract-only]

@@ -30,7 +30,7 @@ This is a study of how a text was made. It is not a decipherment: the tables wer
 Jim Reeds in 1998. Where the evidence is short of proof, this README says "the evidence weighs
 toward".
 
-October 2026 (v1.3: 21 October). CPU only, Python standard library only; the whole analysis
+October 2026 (v1.3 and v1.3.1: 21 October). CPU only, Python standard library only; the whole analysis
 reruns in under two minutes.
 
 **Archived on Zenodo** with its paper, code, data and results: [doi:10.5281/zenodo.23470965](https://doi.org/10.5281/zenodo.23470965) (this DOI always opens the latest version; see How to cite at the end).
@@ -94,10 +94,15 @@ reads them locally.
 | Teker (2026) preprint, supplement and code, Zenodo 10.5281/zenodo.23431833 | comparison only; the pipeline does not read them |
 | Teker (2026) v1.7 supplement and code, Zenodo 10.5281/zenodo.23524253 | (v1.3) comparison and credit; the pipeline does not read them |
 
-Our own data, written by hand from Kupin's edition: `data/section28.json`, the position numbers
+Our own data, typed from Kupin's edition by Claude: `data/section28.json`, the position numbers
 and names of the 23 paragraphs, with every printed copy (Sloane main text, Kupin's translation
 where it reads the Latin differently, the Bodley variants printed in braces, and the Taurus
 margin) and the Roman numerals as printed. Notes record where the editor is unsure.
+
+**How AI was used.** Everything is read from the text of Kupin's printed edition. Claude typed
+the Section 28 numbers and names (`data/section28.json`) from it; they reproduce Teker's
+independent scores, 19 of 23 words and 131 of 138 letters (`results/sec28.json`, reading B). The
+other data are extracted from the fetched texts by our code. An AI coding assistant (Claude Code) was used. Every step reruns without any AI service.
 
 ## 3. Method
 
@@ -210,10 +215,10 @@ judged were committed before any scoring (`prereg/v1.3-extra-spellings.md`).
   Section 30 spelling.
 - **Still no wrong code word.** 0 of 22 × 23 cross-pairings reach another paragraph's code
   word at 0, 1 or 2 slips, in all three declared sets (every new spelling; only those attested
-  twice; every new spelling plus Iaech, Lanay and Ysiis placed by hand).
+  twice; every new spelling plus Iaech, Lanay and Ysiis placed as listed in the pre-registration).
 - **Chance elsewhere.** The largest one-slip chance over the 23 paragraphs stays 0.0027
   (Taurus). Two-slip chances rise by at most 0.00006 (Moon, 0.00223 to 0.00229), or 0.00012
-  (Earth) with the three hand-placed words.
+  (Earth) with the three listed words.
 - Several of the new spellings (Os for Hos, Sol for Soll, Burny for Burnyl) differ by one letter
   added or dropped, which the counting-slip step already allows; that is part of why so little
   moves.
@@ -372,7 +377,7 @@ including the previous 60 days):
    three.
 4. **"Chosen, not generated"** is the reading the evidence weighs toward, not a proof. A rule
    outside the families tested could still exist.
-5. **Our transcription.** `data/section28.json` was typed from the edition by hand. Its
+5. **Our transcription.** `data/section28.json` was typed from the edition's text by Claude. Its
    numbers reproduce Teker's independent scores (19 of 23, 131 of 138), which is a check on
    both.
 6. **What the vowel test can show** (Teker's point, 21 October 2026). A word chosen to be
@@ -385,7 +390,7 @@ including the previous 60 days):
 7. **The v1.3 spelling check depends on how the names were picked out** of Sections 26.2–26.8,
    29 and 30. The rules were fixed before scoring, but were adjusted while reading the
    extracted lists (to drop names of other books cited in passing). The 64 words they could not
-   place are listed in `data/extra_spellings.json`; placing the three most plausible by hand
+   place are listed in `data/extra_spellings.json`; placing the three most plausible as listed
    changes nothing.
 
 ## 8. How to reproduce

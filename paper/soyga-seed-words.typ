@@ -17,7 +17,7 @@
   #v(0.2em)
   #text(size: 9pt)[ORCID #link("https://orcid.org/0009-0003-6599-8297")[0009-0003-6599-8297] · Independent researcher, Australia]
   #v(0.2em)
-  #text(size: 9pt)[Working paper, version 1.3, 21 October 2026 · not peer reviewed]
+  #text(size: 9pt)[Working paper, version 1.3.1, 21 October 2026 · not peer reviewed]
   #v(0.2em)
   #text(size: 9pt)[Code, data and results: #link("https://github.com/BravoBravoIX/soyga-seed-words")[github.com/BravoBravoIX/soyga-seed-words], #link("https://doi.org/10.5281/zenodo.23470965")[doi:10.5281/zenodo.23470965]]
 ]
@@ -49,7 +49,7 @@ This paper asks two questions, both made checkable. First, where the printed num
 
 = Sources and data
 
-All numbers and names were transcribed by hand from Kupin's edition (Section 28: Latin pp. 533–537, translation pp. 538–541; Sloane 8 ff. 138v–141r, with the Bodley 908 variants printed in braces). The transcription (`data/section28.json`) records every printed copy of each paragraph's numbers: the Latin as printed, Kupin's translation where it reads the Latin differently, the Bodley variants, and the Bodley marginal list for Taurus, together with the Roman numerals as printed and the editor's notes of uncertainty. The code words are those of the tables' left margins (Reeds 1998, Table I). Reeds's preprint and Kupin's edition were read from the copies in the _orey/book-of-soyga_ repository; Louv's and orey's generated tables and Teker's preprint were used for comparison only. No manuscript images were used: images of the relevant leaves do not appear to be online (Teker reports the same).
+All numbers and names were transcribed from Kupin's edition by Claude (Section 28: Latin pp. 533–537, translation pp. 538–541; Sloane 8 ff. 138v–141r, with the Bodley 908 variants printed in braces). The transcription (`data/section28.json`) records every printed copy of each paragraph's numbers: the Latin as printed, Kupin's translation where it reads the Latin differently, the Bodley variants, and the Bodley marginal list for Taurus, together with the Roman numerals as printed and the editor's notes of uncertainty. The code words are those of the tables' left margins (Reeds 1998, Table I). Reeds's preprint and Kupin's edition were read from the copies in the _orey/book-of-soyga_ repository; Louv's and orey's generated tables and Teker's preprint were used for comparison only. No manuscript images were used: images of the relevant leaves do not appear to be online (Teker reports the same).
 
 = Method
 
@@ -67,7 +67,7 @@ Every printed copy of the numbers and every spelling printed in Section 28 is a 
 
 *Chance.* For each paragraph we draw 100,000 random six-letter "code words" from random positions of the same three names, so that they use the right letters, and count how many the same number of slips would also produce. A second control asks whether any paragraph's slips produce one of the other 22 real code words.
 
-*Sensitivity check (version 1.3).* The same triads stand, in the same order, in the book paragraphs of Sections 26.2–26.8, the alphabetical litany of Section 29 and the observances of Section 30 (Teker 2026b). Declared rules, committed with the scoring plan before any scoring (`prereg/v1.3-extra-spellings.md`), pick out the spelling at each name's place there; every spelling not already admitted becomes one more admitted spelling of that name, and the repair search is rerun with everything else unchanged, including the random words. Three sets are scored: every new spelling; only those attested twice; and every new spelling plus three words the rules leave unplaced, placed by hand. Words the rules cannot place are listed, not guessed.
+*Sensitivity check (version 1.3).* The same triads stand, in the same order, in the book paragraphs of Sections 26.2–26.8, the alphabetical litany of Section 29 and the observances of Section 30 (Teker 2026b). Declared rules, committed with the scoring plan before any scoring (`prereg/v1.3-extra-spellings.md`), pick out the spelling at each name's place there; every spelling not already admitted becomes one more admitted spelling of that name, and the repair search is rerun with everything else unchanged, including the random words. Three sets are scored: every new spelling; only those attested twice; and every new spelling plus three words the rules leave unplaced, placed as the pre-registration lists them. Words the rules cannot place are listed, not guessed.
 
 *Independent test of the error model.* Using only the printed numbers, never the code words, we classify the disagreements between printed copies of the same paragraph's numbers and compare the shares of each kind of slip with random lists changed at the same rate.
 
@@ -116,7 +116,7 @@ The one-_s_ reading at Cancer is a counting slip, not a spelling: on the Latin p
 
 == Other places the names stand (version 1.3)
 
-The declared rules place 276 occurrences on 67 of the 69 names (Section 29: 116; Section 30: 54; Sections 26.2–26.8: 106). They give 26 spellings of 20 names that the version 1.0 model did not admit, 8 of them attested twice or more: for example _Bonicado_ and _Dorocado_ for _Borocado_, _Muelecon_ for _Mirdecon_, _Niscar_ for _Nysoar_, _Os_ for _Hos_ and _Agatai_ for _Agathay_. Of 64 words the rules could not place, 41 are another book's name cited in passing; the rest include book 23’s _Iaech_ and _Lanay_. Table 3 gives the result (`results/extra_spellings.json`). Nothing that bears on the conclusions moves: each repair still needs one slip, with the same chance, and no paragraph reaches another's code word at any cost. ARICAA gains one derivation (the printed numbers on _Agatai_), and two-slip chances rise by at most 0.00006 (Moon), or 0.00012 (Earth) with the hand-placed words. Several new spellings (_Os_, _Sol_, _Burny_) differ by one letter added or dropped, which the counting slip already allows.
+The declared rules place 276 occurrences on 67 of the 69 names (Section 29: 116; Section 30: 54; Sections 26.2–26.8: 106). They give 26 spellings of 20 names that the version 1.0 model did not admit, 8 of them attested twice or more: for example _Bonicado_ and _Dorocado_ for _Borocado_, _Muelecon_ for _Mirdecon_, _Niscar_ for _Nysoar_, _Os_ for _Hos_ and _Agatai_ for _Agathay_. Of 64 words the rules could not place, 41 are another book's name cited in passing; the rest include book 23’s _Iaech_ and _Lanay_. Table 3 gives the result (`results/extra_spellings.json`). Nothing that bears on the conclusions moves: each repair still needs one slip, with the same chance, and no paragraph reaches another's code word at any cost. ARICAA gains one derivation (the printed numbers on _Agatai_), and two-slip chances rise by at most 0.00006 (Moon), or 0.00012 (Earth) with the three listed words. Several new spellings (_Os_, _Sol_, _Burny_) differ by one letter added or dropped, which the counting slip already allows.
 
 #figure(
   table(
@@ -126,7 +126,7 @@ The declared rules place 276 occurrences on 67 of the 69 names (Section 29: 116;
     [version 1.0 model], [–], [0.00044, 0.00005, 0.00002, 0.00004], [0], [0.0027],
     [and every spelling found], [26], [the same], [0], [0.0027],
     [and those attested twice], [8], [the same], [0], [0.0027],
-    [and every spelling, with _Iaech_, _Lanay_, _Ysiis_ by hand], [26 + 3], [the same], [0], [0.0027],
+    [and every spelling, with _Iaech_, _Lanay_, _Ysiis_ placed as listed], [26 + 3], [the same], [0], [0.0027],
   ),
   caption: [The repair search with the spellings of Sections 26.2–26.8, 29 and 30 (pre-registered sensitivity check).],
 )
@@ -175,16 +175,20 @@ The code words are rich in vowels: 82 of 138 letters, against 61.5 expected from
 + The error model was written after reading the earlier work, and three of the four repairs had already been noticed (two by Teker, one by Louv). The model is generic (any numeral, any attested spelling, any one-letter counting slip, in any paragraph), and its chance figures measure how much freedom it has; but it was not blind to those three.
 + "Chosen, not generated" is where the evidence weighs, not a proof. A rule outside the families tested could still exist.
 + As Teker pointed out, a word chosen to be pronounceable will be rich in vowels however it was found. The vowel test therefore separates "chosen" from "random positions" well, but separates "chosen" from "generated by a rule that also favours pronounceable words" much less well. The vowel and three-name tests show that the positions are not random; that no rule lies behind them rests on the failure of the families tested.
-+ The version 1.3 check depends on how the names were picked out of Sections 26.2–26.8, 29 and 30. The rules were fixed before scoring but adjusted while reading the extracted lists; the words they could not place are listed with the data, and placing the three most plausible by hand changes nothing.
-+ Our transcription was typed by hand. Its numbers reproduce Teker's independent scores (19 of 23 words, 131 of 138 letters), which is a check on both.
++ The version 1.3 check depends on how the names were picked out of Sections 26.2–26.8, 29 and 30. The rules were fixed before scoring but adjusted while reading the extracted lists; the words they could not place are listed with the data, and placing the three most plausible as listed changes nothing.
++ Our transcription was typed from the edition's text by Claude. Its numbers reproduce Teker's independent scores (19 of 23 words, 131 of 138 letters), which is a check on both.
 
 = Data and code availability
 
 Code (MIT), our transcription and all results (CC BY 4.0) are at #link("https://github.com/BravoBravoIX/soyga-seed-words")[github.com/BravoBravoIX/soyga-seed-words] and archived at #link("https://doi.org/10.5281/zenodo.23470965")[doi:10.5281/zenodo.23470965]. Third-party texts are not redistributed; a script fetches them from where their owners publish them and checks their SHA-256 sums, and the pipeline then rebuilds every results file byte for byte.
 
+= How AI was used
+
+Everything is read from the text of Kupin's printed edition. Claude typed the Section 28 numbers and names from it; they reproduce Teker's independent scores (19 of 23 words, 131 of 138 letters). The other data are extracted from the fetched texts by our code. An AI coding assistant (Claude Code) was used. Every step reruns without any AI service.
+
 = Acknowledgements
 
-This study stands on the work of Jim Reeds, Jane Kupin, Jason Louv, Ilir Ivezaj and Onur Teker. Onur Teker also read version 1.2 and sent the comments taken up in version 1.3. The analysis code was written with the help of an AI coding assistant (Claude, Anthropic); the author checked the results and is responsible for any errors.
+This study stands on the work of Jim Reeds, Jane Kupin, Jason Louv, Ilir Ivezaj and Onur Teker. Onur Teker also read version 1.2 and sent the comments taken up in version 1.3. The author is responsible for any errors.
 
 = References
 
